@@ -14,11 +14,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: true
+          fetch-depth: 0  # Required for Hugo themes with git info
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
+          extended: true  # Enable extended version for SCSS, etc.
 
       - name: Build site
         run: hugo --minify
@@ -29,4 +31,4 @@ jobs:
           personal_token: ${{ secrets.GH_PAT }}
           publish_branch: gh-pages
           publish_dir: ./public
-
+          cname: koustubha.com  # 🔥 Add this line to preserve custom domain
