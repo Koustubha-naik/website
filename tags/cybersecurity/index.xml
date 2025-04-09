@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cybersecurity on Z3KAIx0</title>
-    <link>https://koustubha.com/tags/cybersecurity/</link>
-    <description>Recent content in Cybersecurity on Z3KAIx0</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://koustubha.com/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Welcome to the Dojo</title>
-      <link>https://koustubha.com/posts/first/</link>
-      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://koustubha.com/posts/first/</guid>
-      <description>&lt;p&gt;Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p&gt;&#xA;&lt;p&gt;Welcome to my little corner of the internet.&lt;br&gt;&#xA;This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.&lt;/p&gt;&#xA;&lt;p&gt;🧠 Hacking tips&lt;br&gt;&#xA;🔧 DIY tools&lt;br&gt;&#xA;📚 Learn-by-doing&lt;br&gt;&#xA;⚡ Random thoughts from the digital trenches&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersecurity on Z3KAIx0</title><link>https://koustubha.com/tags/cybersecurity/</link><description>Recent content in Cybersecurity on Z3KAIx0</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://koustubha.com/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to the Dojo</title><link>https://koustubha.com/posts/first/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://koustubha.com/posts/first/</guid><description>&lt;p>Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p>
+&lt;p>Welcome to my little corner of the internet.&lt;br>
+This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.&lt;/p>
+&lt;p>🧠 Hacking tips&lt;br>
+🔧 DIY tools&lt;br>
+📚 Learn-by-doing&lt;br>
+⚡ Random thoughts from the digital trenches&lt;/p>
+&lt;p>If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p></description></item></channel></rss>

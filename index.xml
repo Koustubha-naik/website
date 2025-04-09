@@ -1,26 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Z3KAIx0</title>
-    <link>https://koustubha.com/</link>
-    <description>Recent content on Z3KAIx0</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://koustubha.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Welcome to the Dojo</title>
-      <link>https://koustubha.com/posts/first/</link>
-      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://koustubha.com/posts/first/</guid>
-      <description>&lt;p&gt;Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p&gt;&#xA;&lt;p&gt;Welcome to my little corner of the internet.&lt;br&gt;&#xA;This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.&lt;/p&gt;&#xA;&lt;p&gt;🧠 Hacking tips&lt;br&gt;&#xA;🔧 DIY tools&lt;br&gt;&#xA;📚 Learn-by-doing&lt;br&gt;&#xA;⚡ Random thoughts from the digital trenches&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://koustubha.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://koustubha.com/contact/</guid>
-      <description>&lt;div style=&#34;display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 35vh; text-align: center; margin-top: -3vh;&#34;&gt;&#xA;&lt;h1 style=&#34;text-align: center;&#34;&gt;💌 Contact&lt;/h1&gt;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&#xA;  Have a question, idea, or just want to say hi?&lt;br&gt;&#xA;  I’d love to hear from you.&#xA;&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&#xA;  📧 &lt;a href=&#34;https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=z3kaix0.offsec@gmail.com&#34; target=&#34;_blank&#34;&gt;&#xA;    z3kaix0.offsec@gmail.com&#xA;  &lt;/a&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Z3KAIx0</title><link>https://koustubha.com/</link><description>Recent content on Z3KAIx0</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 09 Apr 2025 16:03:27 +0530</lastBuildDate><atom:link href="https://koustubha.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Mynotes</title><link>https://koustubha.com/notes/mynotes/</link><pubDate>Wed, 09 Apr 2025 16:03:27 +0530</pubDate><guid>https://koustubha.com/notes/mynotes/</guid><description>&lt;p>Ok Ok &amp;hellip;.😄!! This is Notes section &amp;hellip;. I love to make notes , will sure make notes for free to all to study
+&amp;hellip;. comming sooooooooooooonnnnnn&amp;hellip;&amp;hellip;&amp;hellip;!!!!!!&lt;/p></description></item><item><title>Welcome to the Dojo</title><link>https://koustubha.com/posts/first/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://koustubha.com/posts/first/</guid><description>&lt;p>Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p>
+&lt;p>Welcome to my little corner of the internet.&lt;br>
+This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.&lt;/p>
+&lt;p>🧠 Hacking tips&lt;br>
+🔧 DIY tools&lt;br>
+📚 Learn-by-doing&lt;br>
+⚡ Random thoughts from the digital trenches&lt;/p>
+&lt;p>If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p></description></item><item><title/><link>https://koustubha.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koustubha.com/contact/</guid><description>&lt;div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 35vh; text-align: center; margin-top: -3vh;">
+&lt;h1 style="text-align: center;">💌 Contact&lt;/h1>
+&lt;p style="text-align: center;">
+ Have a question, idea, or just want to say hi?&lt;br>
+ I’d love to hear from you.
+&lt;/p>
+&lt;p style="text-align: center;">
+ 📧 &lt;a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=z3kaix0.offsec@gmail.com" target="_blank">
+ z3kaix0.offsec@gmail.com
+ &lt;/a>
+&lt;/p></description></item></channel></rss>
