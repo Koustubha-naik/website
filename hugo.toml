@@ -10,9 +10,11 @@ theme = "hermit-v2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
   comments = true
-  
-[services.googleAnalytics]
-  id = 'G-QN5S48G7PJ'
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-QN5S48G7PJ'  # replace with your actual GA ID
+
 
 [markup]
   [markup.goldmark]
