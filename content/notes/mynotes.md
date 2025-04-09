@@ -1,6 +1,6 @@
 +++
 date = '2025-04-09T16:03:27+05:30'
-draft = true
+draft = false
 title = 'Mynotes'
 +++
 
