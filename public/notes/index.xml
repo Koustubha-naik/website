@@ -6,8 +6,15 @@
     <description>Recent content in Notes on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Apr 2025 16:03:27 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 09 Apr 2025 23:49:34 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nmap</title>
+      <link>http://localhost:1313/notes/nmap/</link>
+      <pubDate>Wed, 09 Apr 2025 23:49:34 +0530</pubDate>
+      <guid>http://localhost:1313/notes/nmap/</guid>
+      <description>&lt;h1 id=&#34;nmap-build-status-language-grade-cc-language-grade-python-total-alerts&#34;&gt;Nmap &lt;a href=&#34;https://travis-ci.org/nmap/nmap&#34;&gt;&lt;img src=&#34;https://travis-ci.org/nmap/nmap.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://lgtm.com/projects/g/nmap/nmap/context:cpp&#34;&gt;&lt;img src=&#34;https://img.shields.io/lgtm/grade/cpp/g/nmap/nmap.svg?logo=lgtm&amp;amp;logoWidth=18&#34; alt=&#34;Language grade: C/C++&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://lgtm.com/projects/g/nmap/nmap/context:python&#34;&gt;&lt;img src=&#34;https://img.shields.io/lgtm/grade/python/g/nmap/nmap.svg?logo=lgtm&amp;amp;logoWidth=18&#34; alt=&#34;Language grade: Python&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://lgtm.com/projects/g/nmap/nmap/alerts/&#34;&gt;&lt;img src=&#34;https://img.shields.io/lgtm/alerts/g/nmap/nmap.svg?logo=lgtm&amp;amp;logoWidth=18&#34; alt=&#34;Total alerts&#34;&gt;&lt;/a&gt;&lt;a href=&#34;#nmap-build-status-language-grade-cc-language-grade-python-total-alerts&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Nmap is released under a custom license, which is based on (but not compatible&#xA;with) GPLv2. The Nmap license allows free usage by end users, and we also offer&#xA;a commercial license for companies that wish to redistribute Nmap technology&#xA;with their products. See &lt;a href=&#34;https://nmap.org/book/man-legal.html&#34;&gt;Nmap Copyright and Licensing&lt;/a&gt;&#xA;for full details.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mynotes</title>
       <link>http://localhost:1313/notes/mynotes/</link>
