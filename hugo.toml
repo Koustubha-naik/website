@@ -1,0 +1,65 @@
+baseURL = 'https://koustubha.com'
+languageCode = 'en-us'
+title = 'Z3KAIx0'
+theme = "hermit-v2"
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  comments = true
+  
+[services.googleAnalytics]
+  id = 'G-QN5S48G7PJ'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/Koustubha-naik"
+ 
+
+[[params.socialLinks]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/koustubha-naik/"
+  
+[[params.socialLinks]]
+    name = "medium"
+    url = "https://medium.com/@z3kaix0.offsec"
+
+[[params.socialLinks]]
+    name = "twitter"
+    url = "https://x.com/z3kaix0"
+
+
+
+[menu]
+  [[menu.main]]
+    name = "🏡 Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "📘 Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+  name = "🗒️ Notes"
+  url = "/notes/"
+  weight = 3
+
+ [[menu.main]]
+  name = "🗿 About"
+  url = "/about/"
+  weight = 4
+
+  [[menu.main]]
+    name = "💌 Contact"
+    url = "/contact/"
+    weight = 5
