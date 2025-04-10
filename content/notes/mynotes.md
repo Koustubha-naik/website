@@ -4,5 +4,6 @@ draft = false
 title = 'Mynotes'
 +++
 
-Ok Ok ....😄!! This  is Notes section .... I love to make notes , will sure make notes for free to all to study 
-.... comming sooooooooooooonnnnnn.........!!!!!!
+📚 Notes Section
+I love making notes & I’ll share them free for all!
+Coming soon... stay tuned! 😄
