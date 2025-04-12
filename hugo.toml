@@ -2,6 +2,8 @@ baseURL = 'https://koustubha.com'
 languageCode = 'en-us'
 title = 'Z3KAIx0'
 theme = "hermit-v2"
+enableRobotsTXT = true
+
 
 
 [params]
