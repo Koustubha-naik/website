@@ -1,0 +1,85 @@
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+{{- if (or (in .Page.RelPermalink "404") (or .Site.Params.siteNoIndex .Params.noIndex) (in .Site.Params.noIndexPages .Title)) -}}
+<meta name="robots" content="{{ .Site.Params.denyRobots | default "noindex, nofollow, noarchive" }}">
+{{- else -}}
+<meta name="robots" content="{{ .Site.Params.allowRobots | default "index, follow" }}">
+{{- end -}}
+
+<meta name="author" content="{{ .Params.author | default .Site.Params.author.name }}">
+<meta name="description" content="{{ .Page.Params.description | default .Site.Params.description }}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="website">
+<meta property="og:description" content="{{ .Page.Params.description | default .Site.Params.description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/og-default-twitter.jpg">
+<meta property="og:author" content="{{ .Params.author | default .Site.Params.author.name }}">
+<meta property="og:site_name" content="Z3KAIx0">
+<meta property="og:locale" content="en_US">
+<meta property="og:published_time" content="{{ .Date }}">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@z3kaix0">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Page.Params.description | default .Site.Params.description }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-default-twitter.jpg">
+
+<!-- Favicon and Icon Links -->
+<link rel="author" type="text/plain" href="{{ "humans.txt" | relURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+{{- if (fileExists "static/favicon.ico") -}}
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+{{- end -}}
+
+{{ $favicon := "images/favicon.svg" }}
+{{- if (fileExists (printf "assets/%s" $favicon)) -}}
+{{- with resources.Get $favicon | minify -}}
+<link rel="icon" href="{{ .Permalink }}" type="image/svg+xml">
+{{- end -}}
+{{- else if (fileExists "static/favicon.svg") -}}
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+{{- end -}}
+
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
+<link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+<meta name="msapplication-TileImage" content="{{ "mstile-144x144.png" | relURL }}">
+
+<!-- Theme Color -->
+<meta name="theme-color" content="#4a4f5b">
+<meta name="msapplication-TileColor" content="#4a4f5b">
+<link rel="mask-icon" href="{{ "safari-pinned-tab.svg" | relURL }}" color="#4a4f5b">
+
+<!-- Language -->
+<meta name="language" content="English">
+<link rel="alternate" hreflang="en" href="https://koustubha.com/">
+
+<!-- Structured Data (Schema.org) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Z3KAIx0",
+  "url": "https://koustubha.com",
+  "description": "Cybersecurity, hacking, and personal notes by Z3KAIx0 – learning, breaking things (ethically), and infosec geekery.",
+  "author": {
+    "@type": "Person",
+    "name": "Koustubha",
+    "url": "https://github.com/Koustubha-naik",
+    "sameAs": [
+      "https://twitter.com/z3kaix0",
+      "https://linkedin.com/in/koustubha-naik/",
+      "https://medium.com/@z3kaix0.offsec"
+    ]
+  }
+}
+</script>
