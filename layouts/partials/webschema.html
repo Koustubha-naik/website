@@ -1,0 +1,112 @@
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Z3KAIx0",
+  "url": "https://koustubha.com",
+  "description": "Cybersecurity, hacking, and personal notes by Z3KAIx0 – learning, breaking things (ethically), and infosec geekery.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Z3KAIx0",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ "images/favicon.ico" | absURL }}"
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Koustubha",
+    "url": "https://github.com/Koustubha-naik",
+    "sameAs": [
+      "https://twitter.com/z3kaix0",
+      "https://linkedin.com/in/koustubha-naik/",
+      "https://medium.com/@z3kaix0.offsec"
+    ]
+  }
+}
+</script>
+
+{{- else if .IsPage }}
+  {{- if eq .RelPermalink "/about/" }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About Z3KAIx0",
+      "url": "{{ .Permalink }}",
+      "description": "Learn more about Koustubha (Z3KAIx0), her journey into infosec, and what drives her."
+    }
+    </script>
+  {{- else if eq .RelPermalink "/contact/" }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Z3KAIx0",
+      "url": "{{ .Permalink }}",
+      "description": "Reach out to Z3KAIx0 for cybersecurity collaborations, questions, or discussions."
+    }
+    </script>
+  {{- else if eq .RelPermalink "/posts/" }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "All Posts",
+      "url": "{{ .Permalink }}",
+      "description": "A collection of technical posts by Z3KAIx0 on cybersecurity, hacking, and infosec."
+    }
+    </script>
+  {{- else if eq .RelPermalink "/notes/" }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "All Notes",
+      "url": "{{ .Permalink }}",
+      "description": "A collection of personal notes and thoughts by Z3KAIx0 on various cybersecurity topics."
+    }
+    </script>
+  {{- else }}
+    {{/* Fallback for regular pages/posts */}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ .Title | jsonify }},
+      "name": {{ .Title | jsonify }},
+      "description": {{ .Description | default .Summary | plainify | jsonify }},
+      "keywords": [
+        {{- if .Params.keywords }}
+          {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}
+        {{- else if .Params.tags }}
+          {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}
+        {{- end }}
+      ],
+      "articleBody": {{ .Content | plainify | jsonify }},
+      "wordCount": {{ .WordCount }},
+      "inLanguage": "{{ .Language.Lang | default "en" }}",
+      "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
+      "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ .Params.author | default .Site.Params.author.name }}",
+        "url": "{{ .Params.authorLink | default .Site.Params.author.about }}"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Z3KAIx0",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ "images/favicon.ico" | absURL }}"
+        }
+      }
+    }
+    </script>
+  {{- end }}
+{{- end }}
