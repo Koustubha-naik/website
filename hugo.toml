@@ -12,6 +12,8 @@ enableRobotsTXT = true
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
   comments = true
+  description = "Z3KAlx0 – Cybersecurity blog, red teaming notes, and penetration testing guides by Koustubha."
+
 
 [services]
   [services.googleAnalytics]
