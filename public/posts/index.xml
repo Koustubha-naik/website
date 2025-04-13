@@ -11,34 +11,42 @@
 		
 		
 		<item>
-			<title>My Cybersecurity Journey: Kicking Off with HTB Certification</title>
+			<title>My Cybersecurity Journey: Kicking Off with HTB CPTS Certification</title>
 			<link>http://localhost:1313/posts/letsgo/</link>
-			<pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate><guid>http://localhost:1313/posts/letsgo/</guid>
-			<description><![CDATA[Join me on my journey to cybersecurity, starting with the HTB certification. I’ll document the tools, techniques, and methodology I use as I progress through the challenges and certifications.]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="my-cybersecurity-journey-kicking-off-with-htb-certification">&lsquo;My Cybersecurity Journey: Kicking Off with HTB Certification&rsquo;<a href="#my-cybersecurity-journey-kicking-off-with-htb-certification" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+			<pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate><author>Z3KAIx0</author><guid>http://localhost:1313/posts/letsgo/</guid>
+			<description><![CDATA[Join me on my journey to cybersecurity, starting with the HTB certification. I’ll document the tools, techniques, and methodology I use as I progress through the challenges and certifications.]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="my-cybersecurity-journey-kicking-off-with-htb-cpts-certification">&lsquo;My Cybersecurity Journey: Kicking Off with HTB CPTS Certification&rsquo;<a href="#my-cybersecurity-journey-kicking-off-with-htb-cpts-certification" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h1>
-<p>Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the <strong>Hack The Box (HTB) certification</strong> as my first step.</p>
-<h2 id="why-htb">Why HTB?<a href="#why-htb" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<p>Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the <strong>Hack The Box (CPTS) certification</strong> as my first step.</p>
+<h2 id="why-htb-cpts">Why HTB CPTS?<a href="#why-htb-cpts" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h2>
 <p><img src="/images/cpts.png" alt="HTB CPTS"></p>
-<p>Honestly? It’s <strong>only $210</strong>, and the <strong>certificate design is cool as f***</strong>(Design OP🙃). Hack The Box gives you hands-on experience in a controlled environment where you can test real-world hacking techniques. It’s not just about theory—it&rsquo;s about actually <strong>doing</strong>. Hacking is not ticking ✅ answer has ik 😂😂</p>
-<p>wht ever u say all <strong>HTB</strong> cert looks coolll ..!! 🔥</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/89dllajbcJk?autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Honestly? It’s <strong>only $210</strong>, and the <strong>certificate design is cool as f***</strong>(Design OP🙃). Hack The Box gives you hands-on experience in a controlled environment where you can test real-world hacking techniques. It’s not just about theory—it&rsquo;s about actually <strong>doing</strong>.Hacking ain’t about ticking boxes ✅ — it’s about figuring stuff out like a boss 😂😂</p>
+<p>Say what you want, but all the HTB certs look crazy cool 🔥🔥</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe src="https://www.youtube.com/embed/89dllajbcJk?autoplay=0" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 <hr>
 <h2 id="certification-roadmap">Certification Roadmap<a href="#certification-roadmap" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h2>
-<p>I&rsquo;m not just picking certs at random because I don&rsquo;t have money for evrything and Even I need to take OSCP so it wt it is ..🙃.. If u want cybersecurity certification roadmap (means u does&rsquo;t know which cert to take first after that which )its down here</p>
+<p>I’m not picking certs randomly—these things cost 💰, and I’ve still got OSCP on my radar. So yeah, it is what it is 🙃. If u want cybersecurity certification roadmap (means u does&rsquo;t know which cert to take first after that which )its down here 👇👇👇</p>
 <p>🔗 <a href="https://pauljerimy.com/security-certification-roadmap/">Paul Jerimy&rsquo;s Security Certification Roadmap</a></p>
-<p>This roadmap is a  visual guide that maps out various cybersecurity certifications .. if use looking for certifications road map  in any field in cybersecurity like off-sec , risk management , networking cert  etc etc &hellip;everthings are given in that website . Fun Fact &raquo; after visiting that website i got to know about <strong>OSEE</strong><br>
-<img src="/images/security-certification-roadmap.png" alt="Paul Jerimy’s Security Certification Roadmap"></p>
+<p>This roadmap is a visual guide that maps out various cybersecurity certifications. If you&rsquo;re looking for a certification path in any field—offensive security, risk management, networking, etc.—everything&rsquo;s there.</p>
+<p><strong>Fun Fact 👉</strong> After visiting that website, I got to know about <strong>OSEE</strong> 😳 <strong>OSEE</strong></p>
+<p><img src="/images/security-certification-roadmap.png" alt="Paul Jerimy’s Security Certification Roadmap"></p>
 <p style="text-align: center;">*This screenshot showing how i will gooooo ...*</p>
 <hr>
 <h2 id="my-study-plan">My Study Plan<a href="#my-study-plan" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -46,7 +54,7 @@
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h2>
-<p>This is nothing but I splitted all <strong>CPTS</strong> topic into different . Which looks Good for me</p>
+<p>This is nothing fancy—just how I broke down all the <strong>CPTS</strong> topics into parts that make sense for me—helps me stay on track and not feel overwhelmed.</p>
 <h3 id="part-1-getting-started"><strong>Part 1: Getting Started</strong><a href="#part-1-getting-started" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>

@@ -1,37 +1,47 @@
 +++
 date = '2025-04-13T05:05:08+05:30'
 draft = false
-title = 'My Cybersecurity Journey: Kicking Off with HTB Certification'
+title = 'My Cybersecurity Journey: Kicking Off with HTB CPTS Certification'
 comments = true
 description = "Join me on my journey to cybersecurity, starting with the HTB certification. I’ll document the tools, techniques, and methodology I use as I progress through the challenges and certifications."
 tags = ["HTB", "Cybersecurity", "Penetration Testing", "CPTS", "CBBH", "PNPT", "OSCP"]
+author = 'Z3KAIx0'
 +++
 
-# 'My Cybersecurity Journey: Kicking Off with HTB Certification'
+# 'My Cybersecurity Journey: Kicking Off with HTB CPTS Certification'
 
-Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the **Hack The Box (HTB) certification** as my first step.
+Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the **Hack The Box (CPTS) certification** as my first step.
 
-## Why HTB?
+## Why HTB CPTS?
 
 ![HTB CPTS](/images/cpts.png)
 
 
-Honestly? It’s **only $210**, and the **certificate design is cool as f\*\*\***(Design OP🙃). Hack The Box gives you hands-on experience in a controlled environment where you can test real-world hacking techniques. It’s not just about theory—it's about actually **doing**. Hacking is not ticking ✅ answer has ik 😂😂
+Honestly? It’s **only $210**, and the **certificate design is cool as f\*\*\***(Design OP🙃). Hack The Box gives you hands-on experience in a controlled environment where you can test real-world hacking techniques. It’s not just about theory—it's about actually **doing**.Hacking ain’t about ticking boxes ✅ — it’s about figuring stuff out like a boss 😂😂
 
-wht ever u say all **HTB** cert looks coolll ..!! 🔥
+Say what you want, but all the HTB certs look crazy cool 🔥🔥
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/89dllajbcJk?autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe src="https://www.youtube.com/embed/89dllajbcJk?autoplay=0" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 ---
 
 ## Certification Roadmap
 
-I'm not just picking certs at random because I don't have money for evrything and Even I need to take OSCP so it wt it is ..🙃.. If u want cybersecurity certification roadmap (means u does't know which cert to take first after that which )its down here 
+I’m not picking certs randomly—these things cost 💰, and I’ve still got OSCP on my radar. So yeah, it is what it is 🙃. If u want cybersecurity certification roadmap (means u does't know which cert to take first after that which )its down here 👇👇👇
 
 🔗 [Paul Jerimy's Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/)
 
-This roadmap is a  visual guide that maps out various cybersecurity certifications .. if use looking for certifications road map  in any field in cybersecurity like off-sec , risk management , networking cert  etc etc ...everthings are given in that website . Fun Fact >> after visiting that website i got to know about **OSEE**   
+This roadmap is a visual guide that maps out various cybersecurity certifications. If you're looking for a certification path in any field—offensive security, risk management, networking, etc.—everything's there.
+
+**Fun Fact 👉** After visiting that website, I got to know about **OSEE** 😳 **OSEE**   
+
 ![Paul Jerimy’s Security Certification Roadmap](/images/security-certification-roadmap.png)
 <p style="text-align: center;">*This screenshot showing how i will gooooo ...*</p>
 
@@ -39,8 +49,8 @@ This roadmap is a  visual guide that maps out various cybersecurity certificatio
 
 ## My Study Plan 
  
- This is nothing but I splitted all **CPTS** topic into different . Which looks Good for me  
-
+ This is nothing fancy—just how I broke down all the **CPTS** topics into parts that make sense for me—helps me stay on track and not feel overwhelmed.
+ 
 ### **Part 1: Getting Started**
 
 | Topic | What It Means |
