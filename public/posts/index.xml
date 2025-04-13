@@ -6,9 +6,254 @@
 		<description>Recent content in Posts on Z3KAIx0</description>
 		<generator>Hugo -- 0.145.0</generator>
 		<language>en-us</language>
-		<lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Sun, 13 Apr 2025 05:05:08 +0530</lastBuildDate>
 		<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
 		
+		
+		<item>
+			<title>My Cybersecurity Journey: Kicking Off with HTB Certification</title>
+			<link>http://localhost:1313/posts/letsgo/</link>
+			<pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate><guid>http://localhost:1313/posts/letsgo/</guid>
+			<description><![CDATA[Join me on my journey to cybersecurity, starting with the HTB certification. I’ll document the tools, techniques, and methodology I use as I progress through the challenges and certifications.]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="my-cybersecurity-journey-kicking-off-with-htb-certification">&lsquo;My Cybersecurity Journey: Kicking Off with HTB Certification&rsquo;<a href="#my-cybersecurity-journey-kicking-off-with-htb-certification" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<p>Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the <strong>Hack The Box (HTB) certification</strong> as my first step.</p>
+<h2 id="why-htb">Why HTB?<a href="#why-htb" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p><img src="/images/cpts.png" alt="HTB CPTS"></p>
+<p>Honestly? It’s <strong>only $210</strong>, and the <strong>certificate design is cool as f***</strong>(Design OP🙃). Hack The Box gives you hands-on experience in a controlled environment where you can test real-world hacking techniques. It’s not just about theory—it&rsquo;s about actually <strong>doing</strong>. Hacking is not ticking ✅ answer has ik 😂😂</p>
+<p>wht ever u say all <strong>HTB</strong> cert looks coolll ..!! 🔥</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/89dllajbcJk?autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+<h2 id="certification-roadmap">Certification Roadmap<a href="#certification-roadmap" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>I&rsquo;m not just picking certs at random because I don&rsquo;t have money for evrything and Even I need to take OSCP so it wt it is ..🙃.. If u want cybersecurity certification roadmap (means u does&rsquo;t know which cert to take first after that which )its down here</p>
+<p>🔗 <a href="https://pauljerimy.com/security-certification-roadmap/">Paul Jerimy&rsquo;s Security Certification Roadmap</a></p>
+<p>This roadmap is a  visual guide that maps out various cybersecurity certifications .. if use looking for certifications road map  in any field in cybersecurity like off-sec , risk management , networking cert  etc etc &hellip;everthings are given in that website . Fun Fact &raquo; after visiting that website i got to know about <strong>OSEE</strong><br>
+<img src="/images/security-certification-roadmap.png" alt="Paul Jerimy’s Security Certification Roadmap"></p>
+<p style="text-align: center;">*This screenshot showing how i will gooooo ...*</p>
+<hr>
+<h2 id="my-study-plan">My Study Plan<a href="#my-study-plan" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>This is nothing but I splitted all <strong>CPTS</strong> topic into different . Which looks Good for me</p>
+<h3 id="part-1-getting-started"><strong>Part 1: Getting Started</strong><a href="#part-1-getting-started" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>What It Means</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Penetration Testing Basics</td>
+          <td>This is where you learn the fundamentals of hacking. You need to understand the mindset behind penetration testing—how to approach testing systems for vulnerabilities and how hackers exploit them for ethical reasons.</td>
+      </tr>
+      <tr>
+          <td>Using Nmap to Find Computers</td>
+          <td><strong>Nmap</strong> is your go-to tool for scanning networks. It helps you identify live hosts, open ports, and services on a network, giving you a blueprint of what you&rsquo;re dealing with.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="part-2-finding-information"><strong>Part 2: Finding Information</strong><a href="#part-2-finding-information" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>What It Means</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Footprinting</td>
+          <td>This is the first step in gathering information about a target. It involves looking up domain names, email addresses, social media profiles, and public databases to gather as much information as possible.</td>
+      </tr>
+      <tr>
+          <td>Info from Websites</td>
+          <td>By scraping or manually collecting data from a target’s website, you can uncover clues about their internal network, technologies they use, and even hidden vulnerabilities.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="part-3-finding-weaknesses--exploiting-them"><strong>Part 3: Finding Weaknesses &amp; Exploiting Them</strong><a href="#part-3-finding-weaknesses--exploiting-them" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>What It Means</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Finding Weaknesses</td>
+          <td>Vulnerability scanning is all about identifying flaws in a system that can be exploited. This involves using automated tools and manual techniques to find weaknesses in a system&rsquo;s defenses.</td>
+      </tr>
+      <tr>
+          <td>Transferring Files</td>
+          <td>When conducting a penetration test, transferring files like payloads and scripts between systems is necessary. This can be done through different methods like HTTP, FTP, or SMB.</td>
+      </tr>
+      <tr>
+          <td>Shells &amp; Payloads</td>
+          <td>After finding vulnerabilities, the next step is to establish a shell or payload that gives you control over the system. Tools like <strong>Netcat</strong> or <strong>Metasploit</strong> make this process easier.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="part-4-hacking-services--passwords"><strong>Part 4: Hacking Services &amp; Passwords</strong><a href="#part-4-hacking-services--passwords" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>What It Means</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Using Metasploit</td>
+          <td><strong>Metasploit</strong> is one of the most powerful tools in a penetration tester’s arsenal. It helps automate the exploitation of vulnerabilities, making the process quicker and more efficient.</td>
+      </tr>
+      <tr>
+          <td>Guessing Passwords</td>
+          <td>Brute-forcing passwords is a classic attack. Tools like <strong>Hydra</strong> or <strong>Burp Suite</strong> can help automate this process by testing common passwords or dictionary-based attacks.</td>
+      </tr>
+      <tr>
+          <td>Breaking into Services</td>
+          <td>Services like <strong>SSH</strong>, <strong>FTP</strong>, or <strong>RDP</strong> are often the targets of brute-force or known-vulnerability attacks. By compromising these services, you can gain access to a system.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="part-5-hacking-websites"><strong>Part 5: Hacking Websites</strong><a href="#part-5-hacking-websites" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>What It Means</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Attacking Websites with Ffuf</td>
+          <td><strong>Ffuf</strong> is a fast web fuzzer used to discover hidden directories, files, or other resources on a website that might be vulnerable to attack.</td>
+      </tr>
+      <tr>
+          <td>SQL Injection</td>
+          <td><strong>SQL Injection</strong> is one of the oldest but still effective attacks on websites. By manipulating database queries, attackers can retrieve sensitive information from a database.</td>
+      </tr>
+      <tr>
+          <td>SQLMap</td>
+          <td><strong>SQLMap</strong> automates the process of exploiting SQL injection flaws. It’s a powerful tool for anyone who needs to perform database-based attacks.</td>
+      </tr>
+      <tr>
+          <td>Cross-Site Scripting (XSS)</td>
+          <td><strong>XSS</strong> attacks allow attackers to inject malicious scripts into web pages viewed by others. This is a common attack method for stealing user credentials or session tokens.</td>
+      </tr>
+      <tr>
+          <td>File Attacks</td>
+          <td>Uploading malicious files (like web shells) to a server is another way to compromise a site. Once the file is executed, you can gain access to the system.</td>
+      </tr>
+      <tr>
+          <td>Command Injection</td>
+          <td>Command injection attacks occur when a web application executes system commands from user input. By manipulating this input, you can execute arbitrary commands on the server.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="part-6-gaining-control"><strong>Part 6: Gaining Control</strong><a href="#part-6-gaining-control" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>What It Means</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Linux Privilege Escalation</td>
+          <td>This is about gaining higher-level access on Linux systems. Common techniques involve exploiting misconfigurations or using local exploits.</td>
+      </tr>
+      <tr>
+          <td>Windows Privilege Escalation</td>
+          <td>Privilege escalation on Windows systems often involves exploiting vulnerable services or insecure permissions to gain admin-level access.</td>
+      </tr>
+      <tr>
+          <td>Pivoting &amp; Port Forwarding</td>
+          <td>After compromising a system, you may need to pivot to other systems on the network. <strong>Port forwarding</strong> lets you access systems hidden behind firewalls or NATs.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="part-7-writing-reports--big-targets"><strong>Part 7: Writing Reports &amp; Big Targets</strong><a href="#part-7-writing-reports--big-targets" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>What It Means</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Writing Reports</td>
+          <td>A major part of penetration testing is documenting your findings. This involves creating detailed reports of vulnerabilities found and suggesting mitigation strategies.</td>
+      </tr>
+      <tr>
+          <td>Hacking Big Networks</td>
+          <td>Penetration testing isn’t just for small systems. You’ll need to know how to assess large enterprise networks, dealing with things like Active Directory, firewalls, and other complex security infrastructure.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="whats-next">What&rsquo;s Next?<a href="#whats-next" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>So far, played a few beginner boxes on HTB, and it’s realy fun !! ( until or unless u get it 😂 ). The process is been all about scanning, finding weak spots, and exploiting them. THEN BOOM 💥</p>
+<p>Each challenge teaches something new, and i would like to dive deeper. Once I pass HTB <strong>CPTS</strong>, I’ll move on to <strong>CBBH</strong>, <strong>PNPT (maybe)</strong>, and eventually <strong>OSCP</strong>. Not sure how i will go but its going to start with <strong>CPTS</strong> and not end with <strong>OSCP</strong> because lets decide what to do after <strong>OSCP</strong> 😄</p>
+<hr>
+<p>Feel free to follow along with my journey, drop a comment if you have any tips, or let’s discuss what’s working for you!</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Welcome to the Dojo</title>
