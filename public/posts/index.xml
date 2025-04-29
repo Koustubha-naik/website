@@ -6,9 +6,149 @@
 		<description>Recent content in Posts on Z3KAIx0</description>
 		<generator>Hugo -- 0.145.0</generator>
 		<language>en-us</language>
-		<lastBuildDate>Sun, 13 Apr 2025 05:05:08 +0530</lastBuildDate>
+		<lastBuildDate>Sun, 27 Apr 2025 14:36:42 +0530</lastBuildDate>
 		<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
 		
+		
+		<item>
+			<title>Methodology</title>
+			<link>http://localhost:1313/posts/methodology/</link>
+			<pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate><author>Z3KAIx0</author><guid>http://localhost:1313/posts/methodology/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="how-hackers-plan-and-execute-attacks-a-full-methodology-guide">How Hackers Plan and Execute Attacks: A Full Methodology Guide<a href="#how-hackers-plan-and-execute-attacks-a-full-methodology-guide" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h1>
+<h2 id="introduction">Introduction<a href="#introduction" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Hackers don’t just break into systems randomly. There is a structured plan, step-by-step, to find weak spots and gain access. Whether it’s to test security or cause harm, understanding this methodology is important for protecting against attacks. 🛡️</p>
+<h2 id="1-reconnaissance-gathering-information-">1. Reconnaissance: Gathering Information 🔍<a href="#1-reconnaissance-gathering-information-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<img src="/posts/Methodology/recon.png" style="width:300px;">
+<p>The first stage of hacking is called reconnaissance, where hackers gather as much information 🤤 as possible about their target. This phase is like spying—the hacker learns everything they can without anyone noticing. The more they know, the easier it is to find vulnerabilities later on. Hackers will often search the web for publicly available information, such as contact details, addresses, and software used by the target. They might look at social media to discover employee names, roles, and technologies the company uses. The hacker uses tools to gather hidden data, like emails, subdomains, or server details.</p>
+<h3 id="tools-used-in-reconnaissance">Tools Used in Reconnaissance:<a href="#tools-used-in-reconnaissance" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<ul>
+<li><strong><a href="https://www.google.com/advanced_search">Google Dorking</a></strong>: Hackers use advanced Google search techniques to find sensitive information that shouldn’t be publicly available. 🧐</li>
+<li><strong><a href="https://github.com/laramies/theHarvester">theHarvester</a></strong>: This tool collects emails, subdomains, and domain info from public sources, such as search engines and social media. 📧</li>
+<li><strong><a href="https://www.paterva.com/">Maltego</a></strong>: A tool for visualizing relationships between people, organizations, and domains. 🌐</li>
+<li><strong><a href="https://www.shodan.io/">Shodan</a></strong>: A search engine for finding Internet of Things (IoT) devices connected to the internet, like cameras or servers. 📡</li>
+<li><strong><a href="https://github.com/lanmaster53/recon-ng">Recon-ng</a></strong>: A web reconnaissance tool that automates the process of gathering information. 🖥️</li>
+</ul>
+<h2 id="2-scanning-and-enumeration-looking-for-open-doors-">2. Scanning and Enumeration: Looking for Open Doors 🚪<a href="#2-scanning-and-enumeration-looking-for-open-doors-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<img src="/posts/Methodology/nmap.png" style="width:500px;">
+<p>After gathering information, hackers start looking for open doors—ways to enter the target system. This phase involves scanning the target’s network and looking for vulnerabilities or services that can be exploited. Hackers scan the target’s system for open ports (like doors) and vulnerable services that can be attacked. They use enumeration to collect more detailed information, such as usernames or system configurations.</p>
+<h3 id="tools-used-in-scanning-and-enumeration">Tools Used in Scanning and Enumeration:<a href="#tools-used-in-scanning-and-enumeration" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<ul>
+<li><strong><a href="https://nmap.org/">Nmap</a></strong>: A popular tool for scanning networks to find open ports and services. 🔐</li>
+<li><strong><a href="https://cirt.net/Nikto2">Nikto</a></strong>: Scans web servers for vulnerabilities, such as outdated software or misconfigurations. 🌐</li>
+<li><strong><a href="https://www.openvas.org/">OpenVAS</a></strong>: A vulnerability scanner that helps find weaknesses in systems. 🔍</li>
+<li><strong><a href="https://github.com/v0re/dirb">Dirb / Dirbuster</a></strong>: Tools used to discover hidden directories or files on a website. 🗂️</li>
+<li><strong><a href="https://github.com/robertdavidgraham/masscan">Masscan</a></strong>: A faster version of Nmap used to scan large networks. ⚡</li>
+<li><strong><a href="https://github.com/ffuf/ffuf">ffuf</a></strong>: A fast web fuzzer used to discover hidden files and directories on websites. 🔎</li>
+</ul>
+<h2 id="3-gaining-access-breaking-in-">3. Gaining Access: Breaking In 🔓<a href="#3-gaining-access-breaking-in-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<img src="/posts/Methodology/msf.png" style="width:500px;">
+<p>Once the hacker has found a weakness, it’s time to break in. The goal of this phase is to exploit vulnerabilities and gain control of the system, whether by using an exploit, social engineering, or password cracking. Hackers use exploits to take advantage of weaknesses in the system. They may use social engineering to trick employees into revealing passwords or personal information. If the system is password-protected, hackers might use brute-force tools to guess the correct password.</p>
+<h3 id="tools-used-in-gaining-access">Tools Used in Gaining Access:<a href="#tools-used-in-gaining-access" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<ul>
+<li><strong><a href="https://www.metasploit.com/">Metasploit Framework</a></strong>: A powerful tool that contains exploits to break into systems by targeting known vulnerabilities. ⚙️</li>
+<li><strong><a href="http://sqlmap.org/">SQLmap</a></strong>: Used to exploit SQL injection vulnerabilities in websites and gain access to databases. 💾</li>
+<li><strong><a href="https://github.com/vanhauser-thc/thc-hydra">Hydra</a></strong>: A password-cracking tool that tests multiple combinations to guess login credentials. 🔑</li>
+<li><strong><a href="https://www.openwall.com/john/">John the Ripper</a></strong>: Another password-cracking tool, mainly used to decode hashed passwords. 🔓</li>
+<li><strong><a href="https://www.metasploit.com/">MSFvenom</a></strong>: Used to create malicious payloads that help hackers gain control once they’ve entered a system. 💣</li>
+</ul>
+<h2 id="4-maintaining-access-staying-inside-">4. Maintaining Access: Staying Inside 🛠️<a href="#4-maintaining-access-staying-inside-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<img src="/posts/Methodology/nin.png" style="width:400px;">
+<h3 id="what-is-it">What is it?<a href="#what-is-it" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Once the hacker has broken into the system, the next step is to maintain access so they can return later if needed. This is done by installing backdoors, creating hidden accounts, or using malware to establish persistent access.</p>
+<h3 id="how-does-a-hacker-do-it">How does a hacker do it?<a href="#how-does-a-hacker-do-it" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Hackers may create backdoors that allow them to access the system later, even if the original vulnerability is fixed. They might install remote access tools (RATs) or malware to make sure they can control the system whenever they want.</p>
+<h3 id="tools-used-in-maintaining-access">Tools Used in Maintaining Access:<a href="#tools-used-in-maintaining-access" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<ul>
+<li><strong><a href="https://nc110.sourceforge.io/">Netcat</a></strong>: A tool used to create backdoors, allowing hackers to maintain remote access. 🌐</li>
+<li><strong><a href="https://www.metasploit.com/">Meterpreter</a></strong>: A tool for post-exploitation, giving hackers full control over the system. 🎮</li>
+<li><strong><a href="https://github.com/EmpireProject/Empire">Empire</a></strong>: A framework for maintaining access and controlling the system remotely. 🌍</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Remote_access_trojan">RATs (Remote Access Trojans)</a></strong>: Malicious software that gives hackers full control over the system. 🕵️‍♂️</li>
+</ul>
+<h2 id="5-covering-tracks-hiding-evidence-">5. Covering Tracks: Hiding Evidence 🕶️<a href="#5-covering-tracks-hiding-evidence-" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<img src="/posts/Methodology/log.png" style="width:400px;">
+<h3 id="what-is-it-1">What is it?<a href="#what-is-it-1" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>The final phase of the attack involves covering tracks to avoid detection. Hackers do this by erasing logs, hiding evidence, and making it appear like they were never there.</p>
+<h3 id="how-does-a-hacker-do-it-1">How does a hacker do it?<a href="#how-does-a-hacker-do-it-1" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>Hackers will delete logs that record system activities to remove traces of their actions. They may use rootkits to hide their presence or change file timestamps to make it look like they didn’t access certain files. The goal is to erase all evidence of the attack so that the target doesn’t realize they’ve been compromised.</p>
+<h3 id="tools-used-in-covering-tracks">Tools Used in Covering Tracks:<a href="#tools-used-in-covering-tracks" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<ul>
+<li><strong><a href="https://www.ccleaner.com/">CCleaner</a></strong>: A tool used to clear system logs and browsing history. 🧹(miss used by hackers )</li>
+<li><strong><a href="https://en.wikipedia.org/wiki/Rootkit">Rootkits</a></strong>: Malicious tools used to hide evidence of a hack or maintain access without detection. 🛡️</li>
+<li><strong><a href="https://www.elcomsoft.com/logcleaner.html">LogCleaner</a></strong>: A tool to edit or delete logs, hiding any traces of the hacker’s activity. 📝</li>
+<li><strong><a href="https://github.com/slyd0g/TimeStomper">Timestomp</a></strong>: A tool that changes file timestamps, making it look like the hacker wasn’t there. 🕰️</li>
+</ul>
+<h2 id="conclusion">Conclusion<a href="#conclusion" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Hacking isn’t random or chaotic—it’s a structured, methodical process. Hackers follow a clear path, from gathering information and scanning for vulnerabilities to maintaining access and covering their tracks. Understanding these steps is crucial for defending against attacks and strengthening cybersecurity. Whether you’re an ethical hacker or simply interested in how attacks work, knowledge of these phases is the first step in protecting systems and data from intruders. 🚀</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>My Cybersecurity Journey: Kicking Off with HTB CPTS Certification</title>
@@ -25,7 +165,7 @@
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
       <line x1="8" y1="12" x2="16" y2="12"></line>
    </svg></a></h2>
-<p><img src="/images/cpts.png" alt="HTB CPTS"></p>
+<p><img src="/posts/letsgo/cpts.png" alt="HTB CPTS"></p>
 <p>Honestly? It’s <strong>only $210</strong>, and the <strong>certificate design is cool as f***</strong>(Design OP🙃). Hack The Box gives you hands-on experience in a controlled environment where you can test real-world hacking techniques. It’s not just about theory—it&rsquo;s about actually <strong>doing</strong>.Hacking ain’t about ticking boxes ✅ — it’s about figuring stuff out like a boss 😂😂</p>
 <p>Say what you want, but all the HTB certs look crazy cool 🔥🔥</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
@@ -46,7 +186,7 @@
 <p>🔗 <a href="https://pauljerimy.com/security-certification-roadmap/">Paul Jerimy&rsquo;s Security Certification Roadmap</a></p>
 <p>This roadmap is a visual guide that maps out various cybersecurity certifications. If you&rsquo;re looking for a certification path in any field—offensive security, risk management, networking, etc.—everything&rsquo;s there.</p>
 <p><strong>Fun Fact 👉</strong> After visiting that website, I got to know about <strong>OSEE</strong> 😳 <strong>OSEE</strong></p>
-<p><img src="/images/security-certification-roadmap.png" alt="Paul Jerimy’s Security Certification Roadmap"></p>
+<p><img src="/posts/letsgo/security-certification-roadmap.png" alt="Paul Jerimy’s Security Certification Roadmap"></p>
 <p style="text-align: center;">*This screenshot showing how i will gooooo ...*</p>
 <hr>
 <h2 id="my-study-plan">My Study Plan<a href="#my-study-plan" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"

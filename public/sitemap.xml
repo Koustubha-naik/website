@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-27T14:36:42+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cybersecurity/</loc>
+    <lastmod>2025-04-27T14:36:42+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/methodology/</loc>
+    <lastmod>2025-04-27T14:36:42+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/methodology/</loc>
+    <lastmod>2025-04-27T14:36:42+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/penetration-testing/</loc>
+    <lastmod>2025-04-27T14:36:42+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-27T14:36:42+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-27T14:36:42+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/cbbh/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
@@ -26,13 +47,7 @@
     <loc>http://localhost:1313/tags/pnpt/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-13T05:05:08+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-13T05:05:08+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/notes/mynotes/</loc>
@@ -54,7 +69,5 @@
     <lastmod>2025-04-09T05:22:23+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

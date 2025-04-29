@@ -14,7 +14,7 @@ Hey there! This is my first blog post, and I’m officially diving🤿 into the 
 
 ## Why HTB CPTS?
 
-![HTB CPTS](/images/cpts.png)
+![HTB CPTS](/posts/letsgo/cpts.png)
 
 
 Honestly? It’s **only $210**, and the **certificate design is cool as f\*\*\***(Design OP🙃). Hack The Box gives you hands-on experience in a controlled environment where you can test real-world hacking techniques. It’s not just about theory—it's about actually **doing**.Hacking ain’t about ticking boxes ✅ — it’s about figuring stuff out like a boss 😂😂
@@ -42,7 +42,7 @@ This roadmap is a visual guide that maps out various cybersecurity certification
 
 **Fun Fact 👉** After visiting that website, I got to know about **OSEE** 😳 **OSEE**   
 
-![Paul Jerimy’s Security Certification Roadmap](/images/security-certification-roadmap.png)
+![Paul Jerimy’s Security Certification Roadmap](/posts/letsgo/security-certification-roadmap.png)
 <p style="text-align: center;">*This screenshot showing how i will gooooo ...*</p>
 
 ---
