@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Z3KAIx0</title>
-    <link>http://localhost:1313/</link>
+    <link>https://koustubha.com/</link>
     <description>Recent content on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Apr 2025 14:36:42 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://koustubha.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Methodology</title>
-      <link>http://localhost:1313/posts/methodology/</link>
+      <link>https://koustubha.com/posts/methodology/</link>
       <pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate>
-      <guid>http://localhost:1313/posts/methodology/</guid>
+      <guid>https://koustubha.com/posts/methodology/</guid>
       <description>&lt;h1 id=&#34;how-hackers-plan-and-execute-attacks-a-full-methodology-guide&#34;&gt;How Hackers Plan and Execute Attacks: A Full Methodology Guide&lt;a href=&#34;#how-hackers-plan-and-execute-attacks-a-full-methodology-guide&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;a href=&#34;#introduction&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hackers don’t just break into systems randomly. There is a structured plan, step-by-step, to find weak spots and gain access. Whether it’s to test security or cause harm, understanding this methodology is important for protecting against attacks. 🛡️&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Cybersecurity Journey: Kicking Off with HTB CPTS Certification</title>
-      <link>http://localhost:1313/posts/letsgo/</link>
+      <link>https://koustubha.com/posts/letsgo/</link>
       <pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate>
-      <guid>http://localhost:1313/posts/letsgo/</guid>
+      <guid>https://koustubha.com/posts/letsgo/</guid>
       <description>&lt;h1 id=&#34;my-cybersecurity-journey-kicking-off-with-htb-cpts-certification&#34;&gt;&amp;lsquo;My Cybersecurity Journey: Kicking Off with HTB CPTS Certification&amp;rsquo;&lt;a href=&#34;#my-cybersecurity-journey-kicking-off-with-htb-cpts-certification&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the &lt;strong&gt;Hack The Box (CPTS) certification&lt;/strong&gt; as my first step.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mynotes</title>
-      <link>http://localhost:1313/notes/mynotes/</link>
+      <link>https://koustubha.com/notes/mynotes/</link>
       <pubDate>Wed, 09 Apr 2025 16:03:27 +0530</pubDate>
-      <guid>http://localhost:1313/notes/mynotes/</guid>
+      <guid>https://koustubha.com/notes/mynotes/</guid>
       <description>&lt;p&gt;📚 Notes Section&#xA;I love making notes &amp;amp; I’ll share them free for all!&#xA;Coming soon&amp;hellip; stay tuned! 😄&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to the Dojo</title>
-      <link>http://localhost:1313/posts/first/</link>
+      <link>https://koustubha.com/posts/first/</link>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/first/</guid>
+      <guid>https://koustubha.com/posts/first/</guid>
       <description>&lt;p&gt;Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p&gt;&#xA;&lt;p&gt;Welcome to my little corner of the internet.&lt;br&gt;&#xA;This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.&lt;/p&gt;&#xA;&lt;p&gt;🧠 Hacking tips&lt;br&gt;&#xA;🔧 DIY tools&lt;br&gt;&#xA;📚 Learn-by-doing&lt;br&gt;&#xA;⚡ Random thoughts from the digital trenches&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://koustubha.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://koustubha.com/contact/</guid>
       <description>&lt;div style=&#34;display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 35vh; text-align: center; margin-top: -3vh;&#34;&gt;&#xD;&#xA;&lt;h1 style=&#34;text-align: center;&#34;&gt;💌 Contact&lt;/h1&gt;&#xD;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;  Have a question, idea, or just want to say hi?&lt;br&gt;&#xD;&#xA;  I’d love to hear from you.&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;  📧 &lt;a href=&#34;https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=z3kaix0.offsec@gmail.com&#34; target=&#34;_blank&#34;&gt;&#xD;&#xA;    z3kaix0.offsec@gmail.com&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>

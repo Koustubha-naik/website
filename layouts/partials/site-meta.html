@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:description" content="{{ .Page.Params.description | default .Site.Params.description }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ .Site.BaseURL }}images/og-default-twitter.jpg">
+<meta property="og:image" content="{{ with .Params.featured_image }}{{ . | absURL }}{{ else }}{{ .Site.BaseURL }}images/og-default-twitter.jpg{{ end }}">
 <meta property="og:author" content="{{ .Params.author | default .Site.Params.author.name }}">
 <meta property="og:site_name" content="Z3KAIx0">
 <meta property="og:locale" content="en_US">
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@z3kaix0">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Page.Params.description | default .Site.Params.description }}">
-<meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-default-twitter.jpg">
+<meta name="twitter:image" content="{{ with .Params.featured_image }}{{ . | absURL }}{{ else }}{{ .Site.BaseURL }}images/og-default-twitter.jpg{{ end }}">
 
 <!-- Favicon and Icon Links -->
 <link rel="author" type="text/plain" href="{{ "humans.txt" | relURL }}">
@@ -42,11 +42,11 @@
 
 {{ $favicon := "images/favicon.svg" }}
 {{- if (fileExists (printf "assets/%s" $favicon)) -}}
-{{- with resources.Get $favicon | minify -}}
-<link rel="icon" href="{{ .Permalink }}" type="image/svg+xml">
-{{- end -}}
+  {{- with resources.Get $favicon | minify -}}
+    <link rel="icon" href="{{ .Permalink }}" type="image/svg+xml">
+  {{- end -}}
 {{- else if (fileExists "static/favicon.svg") -}}
-<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 {{- end -}}
 
 <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">

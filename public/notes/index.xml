@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Z3KAIx0</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>https://koustubha.com/notes/</link>
     <description>Recent content in Notes on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Apr 2025 16:03:27 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://koustubha.com/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mynotes</title>
-      <link>http://localhost:1313/notes/mynotes/</link>
+      <link>https://koustubha.com/notes/mynotes/</link>
       <pubDate>Wed, 09 Apr 2025 16:03:27 +0530</pubDate>
-      <guid>http://localhost:1313/notes/mynotes/</guid>
+      <guid>https://koustubha.com/notes/mynotes/</guid>
       <description>&lt;p&gt;📚 Notes Section&#xA;I love making notes &amp;amp; I’ll share them free for all!&#xA;Coming soon&amp;hellip; stay tuned! 😄&lt;/p&gt;</description>
     </item>
   </channel>

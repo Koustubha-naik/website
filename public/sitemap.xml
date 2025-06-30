@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://koustubha.com/categories/</loc>
     <lastmod>2025-04-27T14:36:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/cybersecurity/</loc>
+    <loc>https://koustubha.com/categories/cybersecurity/</loc>
     <lastmod>2025-04-27T14:36:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/methodology/</loc>
+    <loc>https://koustubha.com/categories/methodology/</loc>
     <lastmod>2025-04-27T14:36:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/methodology/</loc>
+    <loc>https://koustubha.com/posts/methodology/</loc>
     <lastmod>2025-04-27T14:36:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/penetration-testing/</loc>
+    <loc>https://koustubha.com/categories/penetration-testing/</loc>
     <lastmod>2025-04-27T14:36:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://koustubha.com/posts/</loc>
     <lastmod>2025-04-27T14:36:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://koustubha.com/</loc>
     <lastmod>2025-04-27T14:36:42+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cbbh/</loc>
+    <loc>https://koustubha.com/tags/cbbh/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cpts/</loc>
+    <loc>https://koustubha.com/tags/cpts/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cybersecurity/</loc>
+    <loc>https://koustubha.com/tags/cybersecurity/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/htb/</loc>
+    <loc>https://koustubha.com/tags/htb/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/letsgo/</loc>
+    <loc>https://koustubha.com/posts/letsgo/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/oscp/</loc>
+    <loc>https://koustubha.com/tags/oscp/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/penetration-testing/</loc>
+    <loc>https://koustubha.com/tags/penetration-testing/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pnpt/</loc>
+    <loc>https://koustubha.com/tags/pnpt/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://koustubha.com/tags/</loc>
     <lastmod>2025-04-13T05:05:08+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/mynotes/</loc>
+    <loc>https://koustubha.com/notes/mynotes/</loc>
     <lastmod>2025-04-09T16:03:27+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://koustubha.com/tags/blog/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/introduction/</loc>
+    <loc>https://koustubha.com/tags/introduction/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first/</loc>
+    <loc>https://koustubha.com/posts/first/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://koustubha.com/about/</loc>
     <lastmod>2025-04-09T05:27:45+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://koustubha.com/notes/</loc>
     <lastmod>2025-04-09T05:22:23+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://koustubha.com/contact/</loc>
   </url>
 </urlset>

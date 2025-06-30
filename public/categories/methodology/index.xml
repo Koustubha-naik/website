@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Methodology on Z3KAIx0</title>
-    <link>http://localhost:1313/categories/methodology/</link>
+    <link>https://koustubha.com/categories/methodology/</link>
     <description>Recent content in Methodology on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Apr 2025 14:36:42 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/methodology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://koustubha.com/categories/methodology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Methodology</title>
-      <link>http://localhost:1313/posts/methodology/</link>
+      <link>https://koustubha.com/posts/methodology/</link>
       <pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate>
-      <guid>http://localhost:1313/posts/methodology/</guid>
+      <guid>https://koustubha.com/posts/methodology/</guid>
       <description>&lt;h1 id=&#34;how-hackers-plan-and-execute-attacks-a-full-methodology-guide&#34;&gt;How Hackers Plan and Execute Attacks: A Full Methodology Guide&lt;a href=&#34;#how-hackers-plan-and-execute-attacks-a-full-methodology-guide&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;a href=&#34;#introduction&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hackers don’t just break into systems randomly. There is a structured plan, step-by-step, to find weak spots and gain access. Whether it’s to test security or cause harm, understanding this methodology is important for protecting against attacks. 🛡️&lt;/p&gt;</description>
     </item>
   </channel>
