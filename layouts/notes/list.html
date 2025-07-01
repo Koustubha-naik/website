@@ -1,4 +1,20 @@
 {{ define "main" }}
+
+<!-- ✅ External CSS (Hugo asset pipeline) -->
+{{ $projectCSS := resources.Get "css/projects.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $projectCSS.RelPermalink }}">
+
+<!-- ✅ Full-width Header -->
+<header class="page-header">
+  <nav>
+    <a href="/">🏡 Home</a>
+    <a href="/posts/">📘 Blog</a>
+    <a href="/projects/" >🛠️ Projects</a>
+    <a href="/about/">🗿 About</a>
+    
+  </nav>
+</header>
+
 <main style="max-width: 700px; margin: 0 auto; padding: 2rem 1rem; min-height: 80vh;">
 
   {{ with .Content }}
@@ -7,7 +23,7 @@
     </section>
   {{ end }}
 
-  <h1 style="text-align: center;">🗒️ All Notes</h1>
+  <h1 style="text-align: center;">🗒️ All Cheat-sheet</h1>
 
   <section>
     {{ range .Pages.ByDate }}
@@ -29,8 +45,8 @@
   <nav style="display: flex; justify-content: center; gap: 2rem;">
     <a href="/" style="text-decoration: none; color: #bbb;">🏡 Home</a>
     <a href="/posts/" style="text-decoration: none; color: #bbb;">📘 Blog</a>
+    <a href="/projects/" style="text-decoration: none; color: #bbb;">🛠️ Projects</a>
     <a href="/about/" style="text-decoration: none; color: #bbb;">🗿 About</a>
-    <a href="/contact/" style="text-decoration: none; color: #bbb;">💌 Contact</a>
   </nav>
 </footer>
 {{ end }}

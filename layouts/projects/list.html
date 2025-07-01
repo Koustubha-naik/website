@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<!-- ✅ External CSS (Hugo asset pipeline) -->
+{{ $projectCSS := resources.Get "css/projects.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $projectCSS.RelPermalink }}">
+
+<!-- ✅ Full-width Header -->
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <nav>
+    <a href="/">🏡 Home</a>
+    <a href="/posts/">📘 Blog</a>
+    <a href="/notes/">📃 Cheat-sheet</a>
+    <a href="/about/">🗿 About</a>
+  </nav>
+</header>
+
+<main class="section-inner wide animated fadeIn faster">
+  <div class="page-wrapper">
+
+    <!-- ✅ Hero -->
+    <section class="projects-hero">
+      <img src="/images/profile.jpg" alt="My Profile" class="profile-img">
+      <h1>My Personal Projects</h1>
+      <p class="about-desc">
+        I love breaking things (ethically), building tools, and learning in public. Here's a collection of stuff I've been working on.
+      </p>
+    </section>
+
+    <!-- ✅ Projects Grid -->
+    <section class="project-grid">
+      {{ range .Pages }}
+      <a href="{{ .Permalink }}" class="project-card">
+        <div class="card-image">
+          <img src="{{ with .Params.featured_image }}{{ . | absURL }}{{ else }}{{ "/images/og-default-twitter.jpg" | relURL }}{{ end }}" alt="{{ .Title }}">
+        </div>
+        <div class="card-body">
+          <h2>{{ .Title }}</h2>
+          <p>{{ .Params.description | default .Summary }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </section>
+
+    <!-- ✅ Footer -->
+    <footer class="projects-footer">
+      <p>© {{ now.Year }} Z3KAIx0 • Made with ❤️ using Hugo</p>
+    </footer>
+
+  </div>
+</main>
+{{ end }}

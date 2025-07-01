@@ -2,25 +2,22 @@
 date = '2025-04-09T05:27:45+05:30'
 draft = false
 +++
-<h1 style="text-align: center;">About Me ?</h1>
+<h1 style="text-align: center;">About Me</h1>
 
 <img src="https://gravatar.com/avatar/6c3e36ba815a1e5e72d4297bdd668548?size=256" alt="Koustubha's Profile Picture" style="border-radius: 50%; width: 128px; height: 128px; margin-bottom: 1rem;">
 
-Hi, I’m Koustubha 👾
-Welcome to my little corner of the internet.
+<p>Hi, I’m Koustubha 👋</p>
 
-I’m someone who loves exploring the world of cybersecurity, especially red teaming — which means learning how hackers think and act, so we can understand how to protect systems better.
+<p>I’m into cybersecurity — mostly red teaming and offensive security. I like understanding how attackers work so I can learn how systems break (and how to protect them).</p>
 
-This blog is like my personal tech journal — a space where I write down everything I learn, try out new ideas, and share the tools or projects I build along the way. I also like keeping things clean and minimal, both in design and in how I approach tech.
+<p>This blog is my personal space to keep notes, write down what I’m learning, and share tools or small projects I build. I keep things minimal and straight to the point.</p>
 
-What you’ll find here:
-🧠 Notes from what I’m learning
+<p>Here you’ll find:</p>
+<ul>
+  <li>🔐 Security notes & writeups</li>
+  <li>🛠 Tools, scripts, and small projects</li>
+  <li>📘 Stuff I find interesting or useful</li>
+</ul>
 
-💻 Tools I build and how-tos
-
-🔥 Random curiosities I dive into
-
-Thanks for visiting — hope you find something useful or inspiring here.
-Stay curious, stay sharp.
-
-— Z3kaiX0
+<p>Thanks for dropping by.</p>
+<p>— Z3KAIx0</p>

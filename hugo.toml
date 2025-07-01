@@ -10,7 +10,7 @@ enableRobotsTXT = true
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNumTime = "2006-01-02 15:04 "
   comments = true
   description = "Z3KAlx0 – Cybersecurity blog, red teaming notes, and penetration testing guides by Koustubha."
 
@@ -42,8 +42,6 @@ enableRobotsTXT = true
     name = "twitter"
     url = "https://x.com/z3kaix0"
 
-
-
 [menu]
   [[menu.main]]
     name = "🏡 Home"
@@ -55,17 +53,17 @@ enableRobotsTXT = true
     url = "/posts/"
     weight = 2
 
+    [[menu.main]]
+    name = "🛠️ Projects"
+    url = "/projects/"
+    weight = 3
+
   [[menu.main]]
-  name = "🗒️ Notes"
+  name = "🗒️ cheat sheet"
   url = "/notes/"
-  weight = 3
+  weight = 4
 
  [[menu.main]]
   name = "🗿 About"
   url = "/about/"
-  weight = 4
-
-  [[menu.main]]
-    name = "💌 Contact"
-    url = "/contact/"
-    weight = 5
+  weight = 5

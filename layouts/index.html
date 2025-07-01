@@ -1,0 +1,74 @@
+{{ define "head" }}
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- Inline Styles -->
+  <style>
+    #home-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-weight: 400;
+      font-size: 3.2rem;
+      letter-spacing: 1px;
+    }
+
+    .home-logo {
+      width: 140px;
+      height: auto;
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
+      display: block;
+    }
+
+    #home-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -0.5rem;
+    }
+  </style>
+
+  {{ if .Site.Params.bgImg -}}
+    <style>.bg-img {background-image: url('{{.Site.Params.bgImg}}');}</style>
+  {{- else if .Site.Params.images -}}
+    {{- range first 1 .Site.Params.images -}}
+      <style>.bg-img {background-image: url('{{. | absURL}}');}</style>
+    {{- end -}}
+  {{- end }}
+{{ end }}
+
+{{ define "main" }}
+  {{- if (or .Site.Params.images .Site.Params.bgImg) }}
+    <div class="bg-img"></div>
+  {{- end }}
+  <div id="spotlight" {{- if ne false .Site.Params.usesAnimation }} class="animated fadeIn" {{- end -}}>
+    <div id="home-center">
+      <!-- ✅ Logo -->
+      <img src="/images/mylogo_trimmed.svg" alt="Logo" class="home-logo" />
+
+      <!-- ✅ Title -->
+      <h1 id="home-title">{{ .Site.Title }}</h1>
+
+      {{- with .Site.Params.homeSubtitle }}
+        <p id="home-subtitle">{{.}}</p>
+      {{- end }}
+
+      {{- with .Site.Params.socialLinks }}
+        <div id="home-links">
+          {{ partialCached "social-icons.html" . }}
+        </div>
+      {{- end }}
+
+      <nav id="home-nav" class="site-nav">
+        {{ partialCached "menu.html" . }}
+      </nav>
+    </div>
+
+    <div id="home-footer">
+      {{- if templates.Exists "partials/index-footer.html" -}}
+        {{- partialCached "index-footer.html" . -}}
+      {{- else -}}
+        {{- partial "footer.html" . -}}
+      {{- end -}}
+    </div>
+  </div>
+{{ end }}

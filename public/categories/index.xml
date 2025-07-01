@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Z3KAIx0</title>
-    <link>https://koustubha.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Apr 2025 14:36:42 +0530</lastBuildDate>
-    <atom:link href="https://koustubha.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cybersecurity</title>
-      <link>https://koustubha.com/categories/cybersecurity/</link>
+      <link>http://localhost:1313/categories/cybersecurity/</link>
       <pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate>
-      <guid>https://koustubha.com/categories/cybersecurity/</guid>
+      <guid>http://localhost:1313/categories/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Methodology</title>
-      <link>https://koustubha.com/categories/methodology/</link>
+      <link>http://localhost:1313/categories/methodology/</link>
       <pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate>
-      <guid>https://koustubha.com/categories/methodology/</guid>
+      <guid>http://localhost:1313/categories/methodology/</guid>
       <description></description>
     </item>
     <item>
       <title>Penetration Testing</title>
-      <link>https://koustubha.com/categories/penetration-testing/</link>
+      <link>http://localhost:1313/categories/penetration-testing/</link>
       <pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate>
-      <guid>https://koustubha.com/categories/penetration-testing/</guid>
+      <guid>http://localhost:1313/categories/penetration-testing/</guid>
       <description></description>
     </item>
   </channel>

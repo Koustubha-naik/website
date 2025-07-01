@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Penetration Testing on Z3KAIx0</title>
-    <link>https://koustubha.com/tags/penetration-testing/</link>
+    <link>http://localhost:1313/tags/penetration-testing/</link>
     <description>Recent content in Penetration Testing on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Apr 2025 05:05:08 +0530</lastBuildDate>
-    <atom:link href="https://koustubha.com/tags/penetration-testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/penetration-testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Cybersecurity Journey: Kicking Off with HTB CPTS Certification</title>
-      <link>https://koustubha.com/posts/letsgo/</link>
+      <link>http://localhost:1313/posts/letsgo/</link>
       <pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate>
-      <guid>https://koustubha.com/posts/letsgo/</guid>
+      <guid>http://localhost:1313/posts/letsgo/</guid>
       <description>&lt;h1 id=&#34;my-cybersecurity-journey-kicking-off-with-htb-cpts-certification&#34;&gt;&amp;lsquo;My Cybersecurity Journey: Kicking Off with HTB CPTS Certification&amp;rsquo;&lt;a href=&#34;#my-cybersecurity-journey-kicking-off-with-htb-cpts-certification&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the &lt;strong&gt;Hack The Box (CPTS) certification&lt;/strong&gt; as my first step.&lt;/p&gt;</description>
     </item>
   </channel>

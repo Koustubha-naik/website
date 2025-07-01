@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>Posts on Z3KAIx0</title>
-		<link>https://koustubha.com/posts/</link>
+		<link>http://localhost:1313/posts/</link>
 		<description>Recent content in Posts on Z3KAIx0</description>
 		<generator>Hugo -- 0.145.0</generator>
 		<language>en-us</language>
 		<lastBuildDate>Sun, 27 Apr 2025 14:36:42 +0530</lastBuildDate>
-		<atom:link href="https://koustubha.com/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
 			<title>Methodology</title>
-			<link>https://koustubha.com/posts/methodology/</link>
-			<pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate><author>Z3KAIx0</author><guid>https://koustubha.com/posts/methodology/</guid>
+			<link>http://localhost:1313/posts/methodology/</link>
+			<pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate><author>Z3KAIx0</author><guid>http://localhost:1313/posts/methodology/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="how-hackers-plan-and-execute-attacks-a-full-methodology-guide">How Hackers Plan and Execute Attacks: A Full Methodology Guide<a href="#how-hackers-plan-and-execute-attacks-a-full-methodology-guide" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -152,8 +152,8 @@
 		
 		<item>
 			<title>My Cybersecurity Journey: Kicking Off with HTB CPTS Certification</title>
-			<link>https://koustubha.com/posts/letsgo/</link>
-			<pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate><author>Z3KAIx0</author><guid>https://koustubha.com/posts/letsgo/</guid>
+			<link>http://localhost:1313/posts/letsgo/</link>
+			<pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate><author>Z3KAIx0</author><guid>http://localhost:1313/posts/letsgo/</guid>
 			<description><![CDATA[Join me on my journey to cybersecurity, starting with the HTB certification. I’ll document the tools, techniques, and methodology I use as I progress through the challenges and certifications.]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="my-cybersecurity-journey-kicking-off-with-htb-cpts-certification">&lsquo;My Cybersecurity Journey: Kicking Off with HTB CPTS Certification&rsquo;<a href="#my-cybersecurity-journey-kicking-off-with-htb-cpts-certification" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
       stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
@@ -405,8 +405,8 @@
 		
 		<item>
 			<title>Welcome to the Dojo</title>
-			<link>https://koustubha.com/posts/first/</link>
-			<pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://koustubha.com/posts/first/</guid>
+			<link>http://localhost:1313/posts/first/</link>
+			<pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/first/</guid>
 			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<p>Hey there, I’m Koustubha — also known as Z3kaiX0 👾</p>
 <p>Welcome to my little corner of the internet.<br>
 This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.</p>
