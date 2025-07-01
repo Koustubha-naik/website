@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Z3KAIx0</title><link>https://koustubha.com/</link><description>Recent content on Z3KAIx0</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 27 Apr 2025 14:36:42 +0530</lastBuildDate><atom:link href="https://koustubha.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Methodology</title><link>https://koustubha.com/posts/methodology/</link><pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate><guid>https://koustubha.com/posts/methodology/</guid><description>&lt;h1 id="how-hackers-plan-and-execute-attacks-a-full-methodology-guide">How Hackers Plan and Execute Attacks: A Full Methodology Guide&lt;a href="#how-hackers-plan-and-execute-attacks-a-full-methodology-guide" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Z3KAIx0</title><link>https://koustubha.com/</link><description>Recent content on Z3KAIx0</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 14:17:06 +0530</lastBuildDate><atom:link href="https://koustubha.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Nmap</title><link>https://koustubha.com/notes/nmap/</link><pubDate>Tue, 01 Jul 2025 14:17:06 +0530</pubDate><guid>https://koustubha.com/notes/nmap/</guid><description>&lt;style>
+h1, h2, h3 {
+ color: #000000; /* Pure black */
+ font-weight: 700;
+}
+&lt;/style>
+&lt;h1 id="nmap-cheat-sheet">Nmap Cheat Sheet&lt;/h1>
+&lt;hr>
+&lt;h2 id="basic-scans">Basic Scans&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap -sn &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Ping scan (check live hosts)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -Pn &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># No ping (assume host is up)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="port-scanning">Port Scanning&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap -sS &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># SYN scan (stealthy)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sT &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># TCP connect scan&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sU &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># UDP scan&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -p- &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Scan all 65535 ports&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -F &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Fast scan (100 most common ports)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="service--os-detection">Service &amp;amp; OS Detection&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap -sV &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Detect service versions&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -A &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Aggressive scan (OS, version, scripts)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -O &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Detect OS&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="output--logging">Output &amp;amp; Logging&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap -oN output.txt &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Normal output&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -oX output.xml &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># XML output&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -oG output.gnmap &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Grepable output&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -oA output &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Save in all formats&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="script-scanning-nse">Script Scanning (NSE)&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap --script&lt;span style="color:#f92672">=&lt;/span>&amp;lt;script&amp;gt; &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Run specific script&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap --script&lt;span style="color:#f92672">=&lt;/span>vuln &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Run vulnerability scripts&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap --script&lt;span style="color:#f92672">=&lt;/span>http-* &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Run HTTP-related scripts&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap --script&lt;span style="color:#f92672">=&lt;/span>default &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Run default scripts&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="timing--performance">Timing &amp;amp; Performance&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap --min-rate &lt;span style="color:#ae81ff">1000&lt;/span> &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Set min scan rate&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap --max-retries &lt;span style="color:#ae81ff">1&lt;/span> &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Reduce retries&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap --host-timeout 10m &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Timeout after 10 minutes&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -T0 &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Slowest scan (stealthy)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -T4 &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Faster scan&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -T5 &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Insane speed&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="firewall--ids-evasion">Firewall &amp;amp; IDS Evasion&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap -sA &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># ACK scan (bypass stateless firewalls)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sN &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># NULL scan (no flags)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sX &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># XMAS scan&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sF &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># FIN scan&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="evading-detection">Evading Detection&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap -D RND:10 &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Decoy scan&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -f &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Fragment packets&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap --data-length &lt;span style="color:#ae81ff">50&lt;/span> &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Append random data&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -S &amp;lt;spoofed-IP&amp;gt; &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Spoof source IP&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="advanced-scanning">Advanced Scanning&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap -sC &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Run default scripts&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sI &amp;lt;zombie-host&amp;gt; &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Idle scan&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -6 &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># IPv6 scan&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -A --reason &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># Show scan reasoning&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="live-host-discovery">Live Host Discovery&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>nmap -sn &amp;lt;network&amp;gt; &lt;span style="color:#75715e"># Ping scan on subnet&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sL &amp;lt;network&amp;gt; &lt;span style="color:#75715e"># List targets only&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -PR &amp;lt;target&amp;gt; &lt;span style="color:#75715e"># ARP scan (LAN discovery)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Methodology</title><link>https://koustubha.com/posts/methodology/</link><pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate><guid>https://koustubha.com/posts/methodology/</guid><description>&lt;h1 id="how-hackers-plan-and-execute-attacks-a-full-methodology-guide">How Hackers Plan and Execute Attacks: A Full Methodology Guide&lt;a href="#how-hackers-plan-and-execute-attacks-a-full-methodology-guide" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
  stroke-linecap="round" stroke-linejoin="round">
  &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
  &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
@@ -13,23 +70,11 @@
  &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
  &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
  &lt;/svg>&lt;/a>&lt;/h1>
-&lt;p>Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the &lt;strong>Hack The Box (CPTS) certification&lt;/strong> as my first step.&lt;/p></description></item><item><title>Mynotes</title><link>https://koustubha.com/notes/mynotes/</link><pubDate>Wed, 09 Apr 2025 16:03:27 +0530</pubDate><guid>https://koustubha.com/notes/mynotes/</guid><description>&lt;p>📚 Notes Section
-I love making notes &amp;amp; I’ll share them free for all!
-Coming soon&amp;hellip; stay tuned! 😄&lt;/p></description></item><item><title>Welcome to the Dojo</title><link>https://koustubha.com/posts/first/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://koustubha.com/posts/first/</guid><description>&lt;p>Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p>
+&lt;p>Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the &lt;strong>Hack The Box (CPTS) certification&lt;/strong> as my first step.&lt;/p></description></item><item><title>Welcome to the Dojo</title><link>https://koustubha.com/posts/first/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://koustubha.com/posts/first/</guid><description>&lt;p>Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p>
 &lt;p>Welcome to my little corner of the internet.&lt;br>
 This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.&lt;/p>
 &lt;p>🧠 Hacking tips&lt;br>
 🔧 DIY tools&lt;br>
 📚 Learn-by-doing&lt;br>
 ⚡ Random thoughts from the digital trenches&lt;/p>
-&lt;p>If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p></description></item><item><title/><link>https://koustubha.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://koustubha.com/contact/</guid><description>&lt;div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 35vh; text-align: center; margin-top: -3vh;">
-&lt;h1 style="text-align: center;">💌 Contact&lt;/h1>
-&lt;p style="text-align: center;">
- Have a question, idea, or just want to say hi?&lt;br>
- I’d love to hear from you.
-&lt;/p>
-&lt;p style="text-align: center;">
- 📧 &lt;a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=z3kaix0.offsec@gmail.com" target="_blank">
- z3kaix0.offsec@gmail.com
- &lt;/a>
-&lt;/p></description></item></channel></rss>
+&lt;p>If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p></description></item></channel></rss>
