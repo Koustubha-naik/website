@@ -1,0 +1,13 @@
+name: Auto Create Project Repo
+
+on:
+  push:
+    paths:
+      - 'content/projects/*.md'
+
+jobs:
+  just-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print debug info
+        run: echo "🧪 Detected a push to content/projects!"
