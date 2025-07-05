@@ -6,8 +6,48 @@ on:
       - 'content/projects/*.md'
 
 jobs:
-  just-test:
+  create-new-repo:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Print debug info
-        run: echo "🧪 Detected a push to content/projects!"
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Get new markdown file name
+        id: file
+        run: |
+          FILE=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^content/projects/.*\.md$' | head -n 1)
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Extract title from markdown
+        id: title
+        run: |
+          TITLE=$(grep -i 'title *= *' "${{ steps.file.outputs.file }}" | sed -E "s/.*title *= *['\"]?(.*)['\"]?/\1/I")
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+          echo "📁 Repo to create: $TITLE"
+
+      - name: Create GitHub repo
+        run: |
+          curl -X POST https://api.github.com/user/repos \
+            -H "Authorization: token ${{ secrets.GH_CREATE_REPO }}" \
+            -H "Accept: application/vnd.github+json" \
+            -d "{\"name\": \"${{ steps.title.outputs.title }}\", \"private\": false}"
+
+      - name: Prepare README.md
+        run: |
+          mkdir temp
+          awk 'BEGIN{p=1} /^\+\+\+/{p=1-p; next} p' "${{ steps.file.outputs.file }}" > temp/README.md
+          echo "Created README.md with project content."
+
+      - name: Push README to new repo
+        run: |
+          cd temp
+          git init
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add README.md
+          git commit -m "Initial commit with README"
+          git branch -M main
+          git remote add origin https://x-access-token:${{ secrets.GH_CREATE_REPO }}@github.com/Koustubha-naik/${{ steps.title.outputs.title }}.git
+          git push -u origin main
+
