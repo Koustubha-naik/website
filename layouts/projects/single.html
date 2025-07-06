@@ -1,0 +1,121 @@
+{{ define "main" }}
+
+<!-- ✅ External CSS (Hugo asset pipeline) -->
+{{ $singleCSS := resources.Get "css/single.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $singleCSS.RelPermalink }}">
+
+<!-- 🌗 Theme Toggle Button 
+<button class="theme-toggle" onclick="toggleTheme()">🌓 Toggle</button>
+<script>
+  const root = document.documentElement;
+  const currentTheme = localStorage.getItem("theme") || "dark";
+  root.setAttribute("data-theme", currentTheme);
+  function toggleTheme() {
+    const newTheme = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+  }
+</script>
+-->
+
+<main class="section-inner single-post">
+
+  <!-- ✅ Top Navbar -->
+  <nav class="top-nav">
+    <a href="/">🏡 Home</a>
+    <a href="/posts/">📘 Blog</a>
+    <a href="/notes/">📃 Cheat-sheet</a>
+    <a href="/projects/">🛠️ Projects</a>
+    <a href="/about/">🗿 About</a>
+  </nav>
+
+  <article class="content-article">
+
+    <!-- ✅ Share Buttons (Now at the Top) -->
+    <div class="share-buttons">
+      <p>🔗 Share this post:</p>
+      <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank">🐦 Twitter</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" target="_blank">🔗 LinkedIn</a>
+      <button onclick="copyLink()">📋 Copy Link</button>
+    </div>
+
+    <script>
+      function copyLink() {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link copied to clipboard!");
+      }
+    </script>
+
+    <!-- ✅ Post Header -->
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+      <p>
+        {{ with .Date }}
+          <span class="post-date">📅 {{ .Format "Jan 2, 2006" }}</span>
+        {{ end }}
+        <span class="reading-time">⏱️ {{ .ReadingTime }} min read</span>
+        <span class="view-count">👁️ Views: <span id="page-views">...</span></span>
+      </p>
+
+      <!-- ✅ Author -->
+      <div class="author-box">
+        <img src="/images/profile.jpg" alt="Author profile photo">
+        <div>
+          <strong>Koustubha Naik</strong><br>
+          Cybersecurity Enthusiast • Homelabber • Blogger
+        </div>
+      </div>
+    </header>
+
+    <!-- ✅ Optional Featured Image -->
+    {{ with .Params.featuredImg }}
+      <div class="featured-image">
+        <img src="{{ . | absURL }}" alt="Featured image for {{ $.Title }}">
+      </div>
+    {{ end }}
+
+    <!-- ✅ Main Post Body -->
+    <div class="post-body">
+      {{ .Content | safeHTML }}
+    </div>
+
+    <!-- ✅ Tags -->
+    {{ with .Params.tags }}
+      <div class="post-tags">
+        🏷️ Tags:
+        {{ range . }}
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">#{{ . }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <!-- ✅ Prev/Next -->
+    <nav class="post-nav">
+      {{ with .PrevInSection }}
+        <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+      {{ end }}
+      {{ with .NextInSection }}
+        <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+      {{ end }}
+    </nav>
+
+    <!-- ✅ View Counter -->
+    <script>
+      fetch(`https://counterapi.dev/api/koustubha.com{{ .RelPermalink }}`)
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("page-views").textContent = data.count;
+        });
+    </script>
+
+    <!-- ✅ Comments -->
+    {{ if .Params.comments }}
+      <div id="comments">
+        {{ partial "comments.html" . }}
+      </div>
+    {{ end }}
+
+  </article>
+</main>
+
+{{ end }}

@@ -1,0 +1,259 @@
+:root {
+  --bg: #1a1b26;
+  --text: #ddd;
+  --accent: #71b7ff;
+  --code-bg: #0f0f0f;
+  --blockquote: #1e1e1e;
+}
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: system-ui, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  .theme-toggle {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.2rem;
+    font-size: 0.9rem;
+    background: var(--bg);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .single-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  
+  .top-nav {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #333;
+    flex-wrap: wrap;
+    z-index: 100;
+  }
+  
+  .top-nav a {
+    margin: 0.5rem 1rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+  }
+  .top-nav a:hover {
+    color: #fff;
+  }
+  
+  .content-article {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+  .post-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+    position: relative;
+  }
+  .post-title::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    border-radius: 6px;
+  }
+  
+  .post-date, .reading-time, .view-count {
+    font-size: 0.9rem;
+    color: #888;
+    margin-right: 1rem;
+    display: inline-block;
+  }
+  
+  .author-box {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #111;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .author-box img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .featured-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in forwards;
+  }
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .post-body {
+    word-break: break-word;
+    line-height: 1.7;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .post-body h2, .post-body h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .post-body a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .post-body code {
+    background-color: #222;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+  }
+  .post-body pre {
+    background: var(--code-bg);
+    color: #00ff90;
+    border-left: 3px solid #00ff90;
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    overflow-x: auto;
+  }
+  .post-body ul li::marker {
+    content: '✅ ';
+    color: var(--accent);
+  }
+  .post-body blockquote {
+    background: var(--blockquote);
+    border-left: 4px solid #facc15;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+    color: var(--text);
+  }
+  
+  .post-tags {
+    margin-top: 2rem;
+  }
+  .post-tags a {
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 0.85rem;
+    display: inline-block;
+  }
+  
+  .post-nav {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .post-nav a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  
+  #comments {
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+    border-top: 1px solid var(--accent);
+    background-color: var(--bg);
+    color: var(--text);
+  }
+  #comments * {
+    color: var(--text);
+  }
+  #comments a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  
+  .share-buttons {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--accent);
+  }
+  .share-buttons p {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .share-buttons a,
+  .share-buttons button {
+    display: inline-block;
+    margin-right: 1rem;
+    background: var(--bg);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .share-buttons a:hover,
+  .share-buttons button:hover {
+    background: var(--accent);
+    color: var(--bg);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .single-post,
+    .post-body,
+    .content-article {
+      padding: 1rem;
+    }
+  }
+  
+  .checklist {
+    background: #282828; /* full black */
+    border: 1px solid var(--accent); /* or use #333 if you want less contrast */
+    border-radius: 6px;
+    padding: 1.2rem;
+    margin-top: 1.5rem;
+    line-height: 1.8;
+  }
+  
+  .checklist h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text);
+    background: none;
+    padding: 0;
+    border: none;
+  }
+
+  .checklist input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 0.5rem;
+  }
+  
