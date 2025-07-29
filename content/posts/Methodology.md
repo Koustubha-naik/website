@@ -4,7 +4,7 @@ draft = false
 title = 'Methodology'
 comments = true
 categories = ["Cybersecurity", "Methodology", "Penetration Testing"]
-author = 'Z3KAIx0'
+author = 'Koustubha naik (Z3KAIx0)'
 featured_image = "/posts/Methodology/Methodology.jpg"
 excerpt = "This guide covers the detailed steps in a hacker's methodology: from reconnaissance to covering tracks, and the tools used in each phase."
 +++

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homelab on Z3KAIx0</title>
-    <link>http://localhost:1313/categories/homelab/</link>
-    <description>Recent content in Homelab on Z3KAIx0</description>
+    <title>Virtualization on Z3KAIx0</title>
+    <link>http://localhost:1313/categories/virtualization/</link>
+    <description>Recent content in Virtualization on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Jul 2025 20:45:36 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/virtualization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Accidentally Became Addicted to Proxmox (And Why I Love It)</title>
       <link>http://localhost:1313/posts/proxmox/</link>
       <pubDate>Mon, 28 Jul 2025 20:45:36 +0530</pubDate>
       <guid>http://localhost:1313/posts/proxmox/</guid>
       <description>&lt;h1 id=&#34;how-i-accidentally-became-addicted-to-proxmox-and-why-i-love-it&#34;&gt;How I Accidentally Became Addicted to Proxmox (And Why I Love It)&lt;a href=&#34;#how-i-accidentally-became-addicted-to-proxmox-and-why-i-love-it&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&#xD;&#xA;      stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&#xD;&#xA;      &lt;path d=&#34;M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3&#34;&gt;&lt;/path&gt;&#xD;&#xA;      &lt;line x1=&#34;8&#34; y1=&#34;12&#34; x2=&#34;16&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;&#xD;&#xA;   &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/posts/Proxmox/proxmox.png&#34; style=&#34;width:500px;&#34;&gt;&#xD;&#xA;&lt;p&gt;When I first installed Proxmox, all I wanted was to run one tiny VM. Just a Kali box. No big plans. No massive homelab dreams. Just a little space to play around and maybe try a few CTFs. But a few weeks later, I’m staring at the Proxmox dashboard like it&amp;rsquo;s the freakin’ stock market, SSH’d into three different containers, and already thinking about buying more SSDs. What even happened?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Proxmox VE Homelab Setup on Lenovo ThinkPad</title>
-      <link>http://localhost:1313/projects/proxmox-thinkpad-homelab/</link>
-      <pubDate>Sun, 06 Jul 2025 09:31:03 +0530</pubDate>
-      <guid>http://localhost:1313/projects/proxmox-thinkpad-homelab/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;p&gt;Why I Chose the ThinkPad T480&#xA;So, why the T480 out of all laptops?&lt;/p&gt;&#xA;&lt;p&gt;🛡️ Built like a tank – It&amp;rsquo;s a business-grade machine that can handle long runtimes and daily abuse.&lt;/p&gt;&#xA;&lt;p&gt;🧠 Decent power – The i7-8650U isn’t a beast, but it’s efficient and powerful enough for multiple VMs and containers.&lt;/p&gt;&#xA;&lt;p&gt;💸 Affordable &amp;amp; available – You can grab one for cheap these days on OLX or refurb sites.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

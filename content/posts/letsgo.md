@@ -5,7 +5,7 @@ title = 'My Cybersecurity Journey: Kicking Off with HTB CPTS Certification'
 comments = true
 description = "Join me on my journey to cybersecurity, starting with the HTB certification. I’ll document the tools, techniques, and methodology I use as I progress through the challenges and certifications."
 tags = ["HTB", "Cybersecurity", "Penetration Testing", "CPTS", "CBBH", "PNPT", "OSCP"]
-author = 'Z3KAIx0'
+author = 'Koustubha naik (Z3KAIx0)'
 +++
 
 # 'My Cybersecurity Journey: Kicking Off with HTB CPTS Certification'
