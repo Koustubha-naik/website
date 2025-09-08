@@ -93,9 +93,26 @@ $_SESSION['flash'] = "Invalid password, but you got {$correct} characters correc
 
 We can brute-force the admin password one character at a time.
 
-<video width="640" controls>
-  <source src="/posts/CTF/NULLCON/output_10x.mp4" type="video/mp4">
+<style>
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* optional, keeps it from being too wide on desktop */
+  }
+
+  .video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* optional styling */
+  }
+</style>
+
+<div class="video-container">
+  <video controls>
+    <source src="/posts/CTF/NULLCON/output_10x.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
+</div>
 
 
 ### Steps
