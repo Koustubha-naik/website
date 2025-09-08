@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Z3KAIx0</title><link>https://koustubha.com/posts/</link><description>Recent content in Posts on Z3KAIx0</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 28 Jul 2025 20:45:36 +0530</lastBuildDate><atom:link href="https://koustubha.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>How I Accidentally Became Addicted to Proxmox (And Why I Love It)</title><link>https://koustubha.com/posts/proxmox/</link><pubDate>Mon, 28 Jul 2025 20:45:36 +0530</pubDate><guid>https://koustubha.com/posts/proxmox/</guid><description>&lt;h1 id="how-i-accidentally-became-addicted-to-proxmox-and-why-i-love-it">How I Accidentally Became Addicted to Proxmox (And Why I Love It)&lt;a href="#how-i-accidentally-became-addicted-to-proxmox-and-why-i-love-it" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h1>
-&lt;img src="https://koustubha.com/posts/Proxmox/proxmox.png" style="width:500px;">
-&lt;p>When I first installed Proxmox, all I wanted was to run one tiny VM. Just a Kali box. No big plans. No massive homelab dreams. Just a little space to play around and maybe try a few CTFs. But a few weeks later, I’m staring at the Proxmox dashboard like it&amp;rsquo;s the freakin’ stock market, SSH’d into three different containers, and already thinking about buying more SSDs. What even happened?&lt;/p></description></item><item><title>Methodology</title><link>https://koustubha.com/posts/methodology/</link><pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate><guid>https://koustubha.com/posts/methodology/</guid><description>&lt;h1 id="how-hackers-plan-and-execute-attacks-a-full-methodology-guide">How Hackers Plan and Execute Attacks: A Full Methodology Guide&lt;a href="#how-hackers-plan-and-execute-attacks-a-full-methodology-guide" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h1>
-&lt;h2 id="introduction">Introduction&lt;a href="#introduction" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h2>
-&lt;p>Hackers don’t just break into systems randomly. There is a structured plan, step-by-step, to find weak spots and gain access. Whether it’s to test security or cause harm, understanding this methodology is important for protecting against attacks. 🛡️&lt;/p></description></item><item><title>My Cybersecurity Journey: Kicking Off with HTB CPTS Certification</title><link>https://koustubha.com/posts/letsgo/</link><pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate><guid>https://koustubha.com/posts/letsgo/</guid><description>&lt;h1 id="my-cybersecurity-journey-kicking-off-with-htb-cpts-certification">&amp;lsquo;My Cybersecurity Journey: Kicking Off with HTB CPTS Certification&amp;rsquo;&lt;a href="#my-cybersecurity-journey-kicking-off-with-htb-cpts-certification" class="anchor" aria-hidden="true">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
- stroke-linecap="round" stroke-linejoin="round">
- &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3">&lt;/path>
- &lt;line x1="8" y1="12" x2="16" y2="12">&lt;/line>
- &lt;/svg>&lt;/a>&lt;/h1>
-&lt;p>Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the &lt;strong>Hack The Box (CPTS) certification&lt;/strong> as my first step.&lt;/p></description></item><item><title>Welcome to the Dojo</title><link>https://koustubha.com/posts/first/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://koustubha.com/posts/first/</guid><description>&lt;p>Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p>
-&lt;p>Welcome to my little corner of the internet.&lt;br>
-This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.&lt;/p>
-&lt;p>🧠 Hacking tips&lt;br>
-🔧 DIY tools&lt;br>
-📚 Learn-by-doing&lt;br>
-⚡ Random thoughts from the digital trenches&lt;/p>
-&lt;p>If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Z3KAIx0</title><link>https://koustubha.com/posts/</link><description>Recent content in Posts on Z3KAIx0</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 28 Jul 2025 20:45:36 +0530</lastBuildDate><atom:link href="https://koustubha.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>How I Accidentally Became Addicted to Proxmox (And Why I Love It)</title><link>https://koustubha.com/posts/proxmox/</link><pubDate>Mon, 28 Jul 2025 20:45:36 +0530</pubDate><guid>https://koustubha.com/posts/proxmox/</guid><description>&lt;h1 id="how-i-accidentally-became-addicted-to-proxmox-and-why-i-love-it"&gt;How I Accidentally Became Addicted to Proxmox (And Why I Love It)&lt;a href="#how-i-accidentally-became-addicted-to-proxmox-and-why-i-love-it" class="anchor" aria-hidden="true"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round"&gt;
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"&gt;&lt;/path&gt;
+ &lt;line x1="8" y1="12" x2="16" y2="12"&gt;&lt;/line&gt;
+ &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;img src="https://koustubha.com/posts/Proxmox/proxmox.png" style="width:500px;"&gt;
+&lt;p&gt;When I first installed Proxmox, all I wanted was to run one tiny VM. Just a Kali box. No big plans. No massive homelab dreams. Just a little space to play around and maybe try a few CTFs. But a few weeks later, I’m staring at the Proxmox dashboard like it&amp;rsquo;s the freakin’ stock market, SSH’d into three different containers, and already thinking about buying more SSDs. What even happened?&lt;/p&gt;</description></item><item><title>Methodology</title><link>https://koustubha.com/posts/methodology/</link><pubDate>Sun, 27 Apr 2025 14:36:42 +0530</pubDate><guid>https://koustubha.com/posts/methodology/</guid><description>&lt;h1 id="how-hackers-plan-and-execute-attacks-a-full-methodology-guide"&gt;How Hackers Plan and Execute Attacks: A Full Methodology Guide&lt;a href="#how-hackers-plan-and-execute-attacks-a-full-methodology-guide" class="anchor" aria-hidden="true"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round"&gt;
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"&gt;&lt;/path&gt;
+ &lt;line x1="8" y1="12" x2="16" y2="12"&gt;&lt;/line&gt;
+ &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="introduction"&gt;Introduction&lt;a href="#introduction" class="anchor" aria-hidden="true"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round"&gt;
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"&gt;&lt;/path&gt;
+ &lt;line x1="8" y1="12" x2="16" y2="12"&gt;&lt;/line&gt;
+ &lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Hackers don’t just break into systems randomly. There is a structured plan, step-by-step, to find weak spots and gain access. Whether it’s to test security or cause harm, understanding this methodology is important for protecting against attacks. 🛡️&lt;/p&gt;</description></item><item><title>My Cybersecurity Journey: Kicking Off with HTB CPTS Certification</title><link>https://koustubha.com/posts/letsgo/</link><pubDate>Sun, 13 Apr 2025 05:05:08 +0530</pubDate><guid>https://koustubha.com/posts/letsgo/</guid><description>&lt;h1 id="my-cybersecurity-journey-kicking-off-with-htb-cpts-certification"&gt;&amp;lsquo;My Cybersecurity Journey: Kicking Off with HTB CPTS Certification&amp;rsquo;&lt;a href="#my-cybersecurity-journey-kicking-off-with-htb-cpts-certification" class="anchor" aria-hidden="true"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+ stroke-linecap="round" stroke-linejoin="round"&gt;
+ &lt;path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"&gt;&lt;/path&gt;
+ &lt;line x1="8" y1="12" x2="16" y2="12"&gt;&lt;/line&gt;
+ &lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Hey there! This is my first blog post, and I’m officially diving🤿 into the world of cybersecurity—with the &lt;strong&gt;Hack The Box (CPTS) certification&lt;/strong&gt; as my first step.&lt;/p&gt;</description></item><item><title>Welcome to the Dojo</title><link>https://koustubha.com/posts/first/</link><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate><guid>https://koustubha.com/posts/first/</guid><description>&lt;p&gt;Hey there, I’m Koustubha — also known as Z3kaiX0 👾&lt;/p&gt;
+&lt;p&gt;Welcome to my little corner of the internet.&lt;br&gt;
+This blog is my dojo — a chill space where I’ll log what I learn, break, build, or just vibe with.&lt;/p&gt;
+&lt;p&gt;🧠 Hacking tips&lt;br&gt;
+🔧 DIY tools&lt;br&gt;
+📚 Learn-by-doing&lt;br&gt;
+⚡ Random thoughts from the digital trenches&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re into red teaming, cybersecurity, or just like to explore and tinker, you might feel right at home here.&lt;/p&gt;</description></item></channel></rss>
