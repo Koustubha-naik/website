@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nullcon 2025 on Z3KAIx0</title>
-    <link>http://localhost:1313/categories/nullcon-2025/</link>
-    <description>Recent content in Nullcon 2025 on Z3KAIx0</description>
+    <title>Nullcon HackIM CTF Berlin 2025 on Z3KAIx0</title>
+    <link>http://localhost:1313/categories/nullcon-hackim-ctf-berlin-2025/</link>
+    <description>Recent content in Nullcon HackIM CTF Berlin 2025 on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/nullcon-2025/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/nullcon-hackim-ctf-berlin-2025/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nullcon HackIM CTF Berlin 2025</title>
       <link>http://localhost:1313/ctf/nullcon-2025/</link>

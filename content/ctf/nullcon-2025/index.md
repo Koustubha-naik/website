@@ -1,11 +1,11 @@
 ---
-title: "Nullcon 2025"
+title: "Nullcon HackIM CTF Berlin 2025"
 date: 2025-09-07
-description: "A full writeup of my first Nullcon 2025 CTF, covering five challenges across Web and Crypto. Includes detailed recon, exploit steps, scripts, and key takeaways from each challenge."
+description: "Writeup of my first CTF --- Nullcon HackIM CTF Berlin 2025 , covering five challenges across Web and Crypto. Includes detailed recon, exploit steps, scripts, and key takeaways from each challenge."
 featured_image: "/posts/CTF/NULLCON/CTF.png"
-categories: ["CTF Writeups", "Nullcon 2025"]
+categories: ["CTF Writeups", "Nullcon HackIM CTF Berlin 2025"]
 author: 'Koustubha naik (Z3KAIx0)'
-excerpt: " This writeup recaps my first Nullcon CTF journey — from solving quirky web challenges to breaking crypto puzzles — with step-by-step exploits, scripts, and lessons learned "
+excerpt: " This writeup recaps my first Nullcon HackIM CTF Berlin 2025 , journey — from solving quirky web challenges to breaking crypto puzzles — with step-by-step exploits, scripts, and lessons learned "
 
 # Data for the summary table at the top of the page
 challenges:

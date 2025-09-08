@@ -4,8 +4,8 @@ description: "Competitions and practice writeups"
 
 # Table data for the two boxes
 competitions:
-  - name: "Nullcon 2025"          # already made
-    date: "06 Sep 2025"
+  - name: "Nullcon HackIM CTF Berlin 2025"          # already made
+    date: "07 Sep 2025"
     url: "/ctf/nullcon-2025/"
 
 practice:
