@@ -1,0 +1,22 @@
+<header class="site-nav">
+  <nav>
+    {{/* ===== Original dynamic menu (kept for later) =====
+    {{ if site.Menus.main }}
+      {{ range site.Menus.main }}
+        {{ $label := cond (ne .Pre "") (print .Pre " " .Name) .Name }}
+        <a href="{{ .URL | relURL }}">{{ $label }}</a>
+      {{ end }}
+    {{ else }}
+      <a href="{{ "/" | relURL }}">🏡 Home</a>
+      <a href="{{ "/posts/" | relURL }}">📘 Blog</a>
+      <a href="{{ "/projects/" | relURL }}">🛠 Projects</a>
+    {{ end }}
+    ===== End original dynamic menu ===== */}}
+
+    <!-- Hard-coded nav (current) -->
+    <a href="{{ "/" | relURL }}">🏡 Home</a>
+    <a href="{{ "/posts/" | relURL }}">📘 Blog</a>
+    <a href="{{ "/projects/" | relURL }}">🛠 Projects</a>
+    <a href="{{ "/about/" | relURL }}">🗿 About</a>
+  </nav>
+</header>

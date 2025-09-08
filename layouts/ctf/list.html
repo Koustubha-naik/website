@@ -1,0 +1,148 @@
+{{ define "main" }}
+
+{{ $ctfCSS := resources.Get "css/ctf.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $ctfCSS.RelPermalink }}" integrity="{{ $ctfCSS.Data.Integrity }}">
+
+{{ partial "site-nav.html" . }}
+
+<main class="ctf wrap">
+
+
+  {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+  <div class="hr"></div>
+
+  {{ if eq .RelPermalink "/ctf/" }}
+    {{ $comps := .Params.competitions | default (slice) }}
+    {{ $pracs := .Params.practice     | default (slice) }}
+
+    <section class="ctf-box">
+      <div class="box-head">
+        <h2>CTF Competition writeups 🏆 <span class="badge">{{ len $comps }}</span></h2>
+      </div>
+      <div class="table-tools">
+        <input type="search" class="filter" data-target="#tbl-comp" placeholder="Filter competitions…">
+      </div>
+      <div class="scroll-box" aria-label="Competitions">
+        <table id="tbl-comp" class="ctf-table">
+          <thead><tr><th>#</th><th>Name</th><th class="nowrap">Date</th></tr></thead>
+          <tbody>
+            {{ if gt (len $comps) 0 }}
+              {{ range $i, $it := $comps }}
+                <tr class="rowclick" data-href="{{ $it.url | safeURL }}" role="link" tabindex="0">
+                  <td>{{ add $i 1 }}</td>
+                  <td class="clip"><a class="rowlink" href="{{ $it.url | safeURL }}">{{ $it.name }}</a></td>
+                  <td class="nowrap">{{ $it.date }}</td>
+                </tr>
+              {{ end }}
+            {{ else }}
+              <tr><td colspan="3" class="muted">No competitions yet.</td></tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="ctf-box">
+      <div class="box-head">
+        <h2>Practice Boxes <span class="badge">{{ len $pracs }}</span></h2>
+      </div>
+      <div class="table-tools">
+        <input type="search" class="filter" data-target="#tbl-prac" placeholder="Filter platforms…">
+      </div>
+      <div class="scroll-box" aria-label="Practice">
+        <table id="tbl-prac" class="ctf-table">
+          <thead><tr><th>#</th><th>Platform</th></tr></thead>
+          <tbody>
+            {{ if gt (len $pracs) 0 }}
+              {{ range $i, $it := $pracs }}
+                <tr class="rowclick" data-href="{{ $it.url | safeURL }}" role="link" tabindex="0">
+                  <td>{{ add $i 1 }}</td>
+                  <td class="clip"><a class="rowlink" href="{{ $it.url | safeURL }}">{{ $it.name }}</a></td>
+                </tr>
+              {{ end }}
+            {{ else }}
+              <tr><td colspan="2" class="muted">No practice providers yet.</td></tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  {{ else }}
+    <section class="ctf-box">
+      <div class="box-head"><h2>{{ .Title }}</h2></div>
+      <div class="table-tools">
+        <input type="search" class="filter" data-target="#tbl-generic" placeholder="Filter…">
+      </div>
+      <div class="scroll-box">
+        <table id="tbl-generic" class="ctf-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              {{ if .Pages }}<th class="nowrap">Date</th>{{ end }}
+            </tr>
+          </thead>
+          <tbody>
+            {{ if .Sections }}
+              {{ range $i, $s := .Sections.ByTitle }}
+                <tr class="rowclick" data-href="{{ $s.RelPermalink }}" role="link" tabindex="0">
+                  <td>{{ add $i 1 }}</td>
+                  <td class="clip"><a class="rowlink" href="{{ $s.RelPermalink }}">{{ $s.Title }}</a></td>
+                </tr>
+              {{ end }}
+            {{ else if .Pages }}
+              {{ range $i, $p := .Pages.ByDate.Reverse }}
+                <tr class="rowclick" data-href="{{ $p.RelPermalink }}" role="link" tabindex="0">
+                  <td>{{ add $i 1 }}</td>
+                  <td class="clip"><a class="rowlink" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></td>
+                  <td class="nowrap">{{ $p.Date.Format "02 Jan 2006" }}</td>
+                </tr>
+              {{ end }}
+            {{ else }}
+              <tr><td colspan="3" class="muted">Nothing here yet.</td></tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  {{ end }}
+</main>
+
+<script>
+(function(){
+  function safeDest(u){
+    if(!u) return null;
+    if (u.startsWith('/')) return u;
+    try{
+      const url = new URL(u, location.origin);
+      if (url.protocol === 'http:' || url.protocol === 'https:') return url.href;
+    }catch(e){}
+    return null;
+  }
+  const go = (tr)=>{ const safe = safeDest(tr?.dataset?.href); if(safe) location.assign(safe); };
+
+  document.querySelectorAll(".rowclick").forEach(tr=>{
+    tr.addEventListener("click", ()=>go(tr));
+    tr.addEventListener("keydown", e=>{
+      if(e.key==="Enter"||e.key===" "){ e.preventDefault(); go(tr); }
+    });
+  });
+
+  function hookFilter(input){
+    const tbl = document.querySelector(input.dataset.target);
+    if(!tbl) return;
+    const rows = Array.from(tbl.tBodies[0].rows);
+    input.addEventListener("input", ()=>{
+      const q = input.value.trim().toLowerCase();
+      rows.forEach(tr=>{
+        const txt = tr.innerText.toLowerCase();
+        tr.style.display = txt.includes(q) ? "" : "none";
+      });
+    });
+  }
+  document.querySelectorAll("input.filter").forEach(hookFilter);
+})();
+</script>
+
+{{ end }}

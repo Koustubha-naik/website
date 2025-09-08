@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-07-28T20:45:36+05:30</lastmod>
+    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf/</loc>
+    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ctf-writeups/</loc>
+    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/nullcon-2025/</loc>
+    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf/nullcon-2025/</loc>
+    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/homelab/</loc>
     <lastmod>2025-07-28T20:45:36+05:30</lastmod>
@@ -18,9 +33,6 @@
     <lastmod>2025-07-28T20:45:36+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/virtualization/</loc>
-    <lastmod>2025-07-28T20:45:36+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-07-28T20:45:36+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cybersecurity/</loc>
@@ -100,5 +112,23 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-04-09T05:27:45+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf/htb/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf/htb/lame/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/metasploit/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/public/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rce/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/smb/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url>
 </urlset>

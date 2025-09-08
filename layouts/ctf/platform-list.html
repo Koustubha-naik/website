@@ -1,0 +1,87 @@
+{{ define "main" }}
+{{/* Load the shared CTF styles */}}
+{{ $ctf := resources.Get "css/ctf.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $ctf.RelPermalink }}"/>
+
+{{/* Collect both pages and sections so it works for index.md and _index.md */}}
+{{ $boxes := sort (union .RegularPages .Sections) "Date" "desc" }}
+
+<div class="ctf wrap">
+
+  <header class="ctf-hero intro">
+    <h1>{{ .Title }}</h1>
+    <p class="muted">Platform: {{ .Params.platform | default (.Title | title) }}</p>
+    <p class="muted">A curated list of the {{ .Title }} machines I’ve solved. Filter by name to jump quickly.</p>
+    <div class="hr"></div>
+  </header>
+
+  <section class="ctf-box">
+    <div class="box-head" style="justify-content:space-between">
+      <h2>Boxes on {{ .Title }}</h2>
+      <span class="badge">{{ len $boxes }}</span>
+    </div>
+
+    <div class="table-tools">
+      <input id="box-filter" class="filter" type="search" placeholder="Filter boxes…"/>
+    </div>
+
+    <div class="scroll-box">
+      <table class="ctf-table" id="platform-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Difficulty</th>
+            <th>OS</th>
+            <th>Tags</th>  {{/* changed from Points */}}
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{ if gt (len $boxes) 0 }}
+          {{ range $i, $p := $boxes }}
+            <tr class="rowclick" onclick="location.href='{{ $p.RelPermalink }}'">
+              <td class="nowrap">{{ add $i 1 }}</td>
+              <td><a class="rowlink" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></td>
+              <td class="nowrap">{{ with $p.Params.difficulty }}{{ . }}{{ else }}—{{ end }}</td>
+              <td class="nowrap">{{ with $p.Params.os }}{{ . }}{{ else }}—{{ end }}</td>
+              <td>
+                {{ with $p.Params.tags }}
+                  {{/* Coerce tags to a slice if it is a single string */}}
+                  {{- $type := printf "%T" . -}}
+                  {{- $list := (cond (eq $type "string") (slice .) .) -}}
+                  {{- range $list }}<span class="tag">{{ . }}</span>{{ end -}}
+                {{ else }}—{{ end }}
+              </td>
+              <td class="nowrap">{{ with $p.Date }}{{ .Format "02 Jan 2006" }}{{ end }}</td>
+            </tr>
+          {{ end }}
+        {{ else }}
+          <tr><td colspan="6" class="muted">No boxes yet.</td></tr>
+        {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="muted" style="text-align:center;margin-top:1.25rem;">
+    <a href="{{ "/ctf/" | relURL }}">← Back to CTF</a>
+  </p>
+</div>
+
+<script>
+  // Simple name filter
+  (function () {
+    const input = document.getElementById('box-filter');
+    if (!input) return;
+    const rows = Array.from(document.querySelectorAll('#platform-table tbody tr'));
+    input.addEventListener('input', function () {
+      const q = this.value.trim().toLowerCase();
+      rows.forEach(r => {
+        const name = (r.querySelector('td:nth-child(2)')?.innerText || '').toLowerCase();
+        r.style.display = name.includes(q) ? '' : 'none';
+      });
+    });
+  })();
+</script>
+{{ end }}

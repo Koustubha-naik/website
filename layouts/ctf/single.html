@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+  {{/* Load page CSS */}}
+  {{ $css := resources.Get "css/ctf.css" | resources.Fingerprint "sha512" }}
+  <link rel="stylesheet"
+        href="{{ $css.RelPermalink }}"
+        integrity="{{ $css.Data.Integrity }}"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <div class="ctf wrap">
+
+    <p class="back"><a href="/ctf/">← Back to CTF</a></p>
+
+    <header class="ctf-hero">
+      <h1>{{ .Title }}</h1>
+      {{ with .Date }}<p class="muted">{{ .Format "02 Jan 2006" }}</p>{{ end }}
+    </header>
+
+    {{ with .Params.challenges }}
+      {{/* Totals */}}
+      {{ $total := 0 }}{{ $earned := 0 }}{{ $solved := 0 }}
+      {{ range . }}
+        {{ $total = add $total (int .points) }}
+        {{ if .solved }}{{ $earned = add $earned (int .points) }}{{ $solved = add $solved 1 }}{{ end }}
+      {{ end }}
+
+      <section class="ctf-box">
+        <div class="box-head" style="justify-content:space-between">
+          <h2>Challenge summary</h2>
+          <span class="badge">{{ $solved }}/{{ len . }} solved • {{ $earned }}/{{ $total }} pts</span>
+        </div>
+
+        <div class="scroll-box">
+          <table class="ctf-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Category</th>
+                <th>Name</th>
+                <th class="nowrap">Points</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $i, $c := . }}
+                {{/* fallback if anchor omitted: anchorize the title */}}
+                {{ $id := $c.anchor | default (anchorize $c.title) }}
+                {{ $href := printf "#%s" $id }}
+                <tr class="rowclick" tabindex="0" onclick="location.href='{{ $href }}'">
+                  <td class="nowrap">{{ add $i 1 }}</td>
+                  <td class="nowrap">{{ $c.cat | default "-" }}</td>
+                  <td><a class="rowlink" href="{{ $href }}">{{ $c.title }}</a></td>
+                  <td class="nowrap">{{ $c.points }}</td>
+                  <td class="nowrap">{{ if $c.solved }}✅ Solved{{ else }}—{{ end }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    {{ end }}
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    <p class="back"><a href="/ctf/">← Back to CTF</a></p>
+  </div>
+
+{{ end }}

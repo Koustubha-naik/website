@@ -6,8 +6,22 @@
     <description>Recent content in Categories on Z3KAIx0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jul 2025 20:45:36 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF Writeups</title>
+      <link>http://localhost:1313/categories/ctf-writeups/</link>
+      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ctf-writeups/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nullcon 2025</title>
+      <link>http://localhost:1313/categories/nullcon-2025/</link>
+      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/nullcon-2025/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Homelab</title>
       <link>http://localhost:1313/categories/homelab/</link>

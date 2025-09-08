@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{/* Ensure the CTF CSS is loaded (avoids relying on base) */}}
+{{ $ctf := resources.Get "css/ctf.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $ctf.RelPermalink }}" integrity="{{ $ctf.Data.Integrity }}">
+
+<main class="post wrap machine">
+  <nav class="back-top">
+    <a href="{{ "/ctf/" | relURL }}">← Back to CTF</a>
+    &nbsp;·&nbsp;<a href="{{ "/ctf/htb/" | relURL }}">Back to HTB</a>
+  </nav>
+
+  <header class="machine-header">
+    <h1>{{ .Title }}</h1>
+    <p class="muted">{{ .Date | time.Format "02 Jan 2006" }}</p>
+
+    <div class="meta-row">
+      {{ with .Params.difficulty }}
+        <span class="pill diff-{{ lower . }}">{{ . }}</span>
+      {{ end }}
+      {{ with .Params.os }}
+        <span class="pill os">{{ . }}</span>
+      {{ end }}
+      {{ with .Params.tags }}
+        <span class="tags">
+          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+        </span>
+      {{ end }}
+      {{ with .Params.link }}
+        <a class="pill link" href="{{ . }}" target="_blank" rel="noopener">↗ Platform</a>
+      {{ end }}
+    </div>
+
+    {{ with .Params.tldr }}
+      <blockquote class="tldr"><strong>TL;DR —</strong> {{ . }}</blockquote>
+    {{ end }}
+  </header>
+
+  <article class="content">
+    {{ .Content }}
+  </article>
+
+  <footer class="post-footer">
+    <a href="{{ "/ctf/htb/" | relURL }}">← Back to HTB</a> &nbsp;·&nbsp;
+    <a href="{{ "/ctf/" | relURL }}">Back to CTF</a>
+  </footer>
+</main>
+{{ end }}

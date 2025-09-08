@@ -13,7 +13,7 @@ enableRobotsTXT = true
   dateformNumTime = "2006-01-02 15:04 "
   comments = true
   description = "Z3KAlx0 – Cybersecurity blog, red teaming notes, and penetration testing guides by Koustubha."
-
+  customCSS = ["css/ctf.css"]
 
 [services]
   [services.googleAnalytics]
@@ -48,22 +48,27 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
 
-  [[menu.main]]
+[[menu.main]]
     name = "📘 Blog"
     url = "/posts/"
     weight = 2
 
-    [[menu.main]]
+[[menu.main]]
+  name = "🚩CTF Writeups"
+  url = "/ctf/"
+  weight = 3
+
+[[menu.main]]
     name = "🛠️ Projects"
     url = "/projects/"
-    weight = 3
+    weight = 4
 
-  [[menu.main]]
-  name = "🗒️ cheat sheet"
-  url = "/notes/"
-  weight = 4
+[[menu.main]]
+   name = "🗒️ cheat sheet"
+   url = "/notes/"
+   weight = 5
 
- [[menu.main]]
-  name = "🗿 About"
-  url = "/about/"
-  weight = 5
+[[menu.main]]
+   name = "🗿 About"
+   url = "/about/"
+   weight = 6
