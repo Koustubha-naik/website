@@ -64,11 +64,7 @@ enableRobotsTXT = true
     weight = 4
 
 [[menu.main]]
-   name = "🗒️ cheat sheet"
-   url = "/notes/"
-   weight = 5
-
-[[menu.main]]
    name = "🗿 About"
    url = "/about/"
-   weight = 6
+   weight = 5
+   
